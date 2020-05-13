@@ -1,0 +1,182 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 12F1822 ]
+[d frameptr 6 ]
+"62 /Applications/microchip/xc8/v1.34/sources/common/float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 /Applications/microchip/xc8/v1.34/sources/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"15 /Applications/microchip/xc8/v1.34/sources/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"6 /Applications/microchip/xc8/v1.34/sources/pic/eeprom.c
+[v _eecpymem eecpymem `(v  1 e 0 0 ]
+"24
+[v _memcpyee memcpyee `(v  1 e 0 0 ]
+"253 /Users/MATHRAX/MPLABXProjects/f2_pic12f1822.X/main.c
+[v _soundPlay soundPlay `(v  1 e 0 0 ]
+"270
+[v _UART_Read UART_Read `(ui  1 e 2 0 ]
+"283
+[v _UART_Available UART_Available `(i  1 e 2 0 ]
+"287
+[v _InitUART InitUART `(v  1 e 0 0 ]
+"305
+[v _main main `(v  1 e 0 0 ]
+"376
+[v _GlobalInt GlobalInt `II(v  1 e 0 0 ]
+"803 /Applications/microchip/xc8/v1.34/include/pic12f1822.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @21 ]
+"1013
+[v _TMR2 TMR2 `VEuc  1 e 1 @26 ]
+"1032
+[v _PR2 PR2 `VEuc  1 e 1 @27 ]
+"1051
+[v _T2CON T2CON `VEuc  1 e 1 @28 ]
+"1213
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1362
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @149 ]
+"1609
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1938
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2578
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2810
+[v _RCREG RCREG `VEuc  1 e 1 @409 ]
+"2859
+[v _SPBRG SPBRG `VEuc  1 e 1 @411 ]
+"2944
+[v _RCSTA RCSTA `VEuc  1 e 1 @413 ]
+"3005
+[v _TXSTA TXSTA `VEuc  1 e 1 @414 ]
+"3857
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @657 ]
+"3876
+[v _CCPR1H CCPR1H `VEuc  1 e 1 @658 ]
+"3895
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @659 ]
+"5086
+[v _CCP1SEL CCP1SEL `VEb  1 e 0 @2280 ]
+"5152
+[v _CREN CREN `VEb  1 e 0 @3308 ]
+"5210
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"5348
+[v _OERR OERR `VEb  1 e 0 @3305 ]
+"5384
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"5422
+[v _RCIE RCIE `VEb  1 e 0 @1165 ]
+"5424
+[v _RCIF RCIF `VEb  1 e 0 @141 ]
+"5434
+[v _RXDTSEL RXDTSEL `VEb  1 e 0 @2287 ]
+"5552
+[v _T0IE T0IE `VEb  1 e 0 @93 ]
+"5554
+[v _T0IF T0IF `VEb  1 e 0 @90 ]
+"5632
+[v _TMR2ON TMR2ON `VEb  1 e 0 @226 ]
+"5668
+[v _TXCKSEL TXCKSEL `VEb  1 e 0 @2282 ]
+"31 /Users/MATHRAX/MPLABXProjects/f2_pic12f1822.X/main.c
+[v _onkai_d onkai_d `DCC[84]uc  1 e 84 0 ]
+"120
+[v _onkai_f onkai_f `DCC[85]uc  1 e 85 0 ]
+"209
+[v _waveData waveData `ui  1 e 2 0 ]
+"210
+[v _voice_on voice_on `uc  1 e 1 0 ]
+"211
+[v _synth_waveData synth_waveData `uc  1 e 1 0 ]
+"212
+[v _env env `uc  1 e 1 0 ]
+"213
+[v _envelopeCount envelopeCount `ui  1 e 2 0 ]
+"214
+[v _envelopeValue envelopeValue `uc  1 e 1 0 ]
+"216
+[v _dat_d dat_d `uc  1 e 1 0 ]
+"217
+[v _dat_f dat_f `uc  1 e 1 0 ]
+"218
+[v _pos_d pos_d `ui  1 e 2 0 ]
+"219
+[v _pos_f pos_f `ui  1 e 2 0 ]
+"220
+[v _pos pos `uc  1 e 1 0 ]
+"223
+[v _pitch pitch `ui  1 e 2 0 ]
+"224
+[v _count count `ui  1 e 2 0 ]
+"225
+[v _ENV_DELAY ENV_DELAY `ui  1 e 2 0 ]
+"228
+[v _scale scale `[10]uc  1 e 10 0 ]
+"266
+[v _UART_Buffer UART_Buffer `[4]uc  1 e 4 0 ]
+"267
+[v _UART_Buffer_inptr UART_Buffer_inptr `i  1 e 2 0 ]
+"268
+[v _UART_Buffer_outptr UART_Buffer_outptr `i  1 e 2 0 ]
+"5 /Users/MATHRAX/MPLABXProjects/f2_pic12f1822.X/table.c
+[v _waveTable waveTable `DCC[256]uc  1 e 256 0 ]
+"121
+[v _envelopeTable envelopeTable `DCC[256]uc  1 e 256 0 ]
+"305 /Users/MATHRAX/MPLABXProjects/f2_pic12f1822.X/main.c
+[v _main main `(v  1 e 0 0 ]
+{
+"310
+[v main@data data `i  1 a 2 12 ]
+"371
+} 0
+"253
+[v _soundPlay soundPlay `(v  1 e 0 0 ]
+{
+[v soundPlay@onkai onkai `uc  1 a 1 wreg ]
+[v soundPlay@onkai onkai `uc  1 a 1 wreg ]
+"255
+[v soundPlay@onkai onkai `uc  1 a 1 4 ]
+"263
+} 0
+"270
+[v _UART_Read UART_Read `(ui  1 e 2 0 ]
+{
+"271
+[v UART_Read@ans ans `ui  1 a 2 7 ]
+"281
+} 0
+"283
+[v _UART_Available UART_Available `(i  1 e 2 0 ]
+{
+"285
+} 0
+"287
+[v _InitUART InitUART `(v  1 e 0 0 ]
+{
+[v InitUART@rx rx `i  1 p 2 3 ]
+[v InitUART@tx tx `i  1 p 2 5 ]
+[v InitUART@brg brg `uc  1 p 1 7 ]
+"303
+} 0
+"376
+[v _GlobalInt GlobalInt `II(v  1 e 0 0 ]
+{
+"378
+[v GlobalInt@x x `i  1 a 2 1 ]
+"379
+[v GlobalInt@dt dt `uc  1 a 1 0 ]
+"459
+} 0
+"15 /Applications/microchip/xc8/v1.34/sources/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0

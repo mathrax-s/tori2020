@@ -1,0 +1,1944 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"113 mcc_generated_files/mtouch/mtouch_sensor.c
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 113: static void (*callback_sampled)(enum mtouch_sensor_names sensor) = Sensor_DefaultCallback;
+[c E2470 0 1 2 3 4 5 6 7 8 9 .. ]
+[n E2470 mtouch_sensor_names Sensor_AN0 Sensor_AN1 Sensor_AN2 Sensor_AN4 Sensor_AN11 Sensor_AN9 Sensor_AN8 Sensor_AN7 Sensor_AN5 Sensor_AN6  ]
+[v F2671 `(v ~T0 @X0 0 tf1`E2470 ]
+"104
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 104: static void Sensor_DefaultCallback (enum mtouch_sensor_names sensor);
+[v _Sensor_DefaultCallback `(v ~T0 @X0 0 sf1`E2470 ]
+"68
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 68: {
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 68: 
+[s S354 :1 `uc 1 :1 `uc 1 ]
+[n S354 . packet_done interrupted ]
+[v F2682 `(v ~T0 @X0 0 tf ]
+"41 mcc_generated_files/mtouch/mtouch_sensor_scan.h
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.h: 41:     void MTOUCH_CVD_ScanA_0(void);
+[v _MTOUCH_CVD_ScanA_0 `(v ~T0 @X0 0 ef ]
+[v F2685 `(v ~T0 @X0 0 tf ]
+"42
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.h: 42:     void MTOUCH_CVD_ScanB_0(void);
+[v _MTOUCH_CVD_ScanB_0 `(v ~T0 @X0 0 ef ]
+[v F2632 `(v ~T0 @X0 0 tf ]
+[v F2631 `*F2632 ~T0 @X0 1 t ]
+[v F2635 `(v ~T0 @X0 0 tf ]
+[v F2634 `*F2635 ~T0 @X0 1 t ]
+"74 mcc_generated_files/mtouch/mtouch_sensor.c
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 74: {
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 74:     Sensor_scanB = sensor->scanB;
+[s S355 `CE2470 1 `C*F2632 1 `C*F2635 1 `uc 1 `us 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S355 . sensor_name scanA scanB oversampling rawSample enabled sampled active ]
+"44 mcc_generated_files/mtouch/mtouch_sensor_scan.h
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.h: 44:     void MTOUCH_CVD_ScanA_1(void);
+[v _MTOUCH_CVD_ScanA_1 `(v ~T0 @X0 0 ef ]
+"45
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.h: 45:     void MTOUCH_CVD_ScanB_1(void);
+[v _MTOUCH_CVD_ScanB_1 `(v ~T0 @X0 0 ef ]
+"47
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.h: 47:     void MTOUCH_CVD_ScanA_2(void);
+[v _MTOUCH_CVD_ScanA_2 `(v ~T0 @X0 0 ef ]
+"48
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.h: 48:     void MTOUCH_CVD_ScanB_2(void);
+[v _MTOUCH_CVD_ScanB_2 `(v ~T0 @X0 0 ef ]
+"50
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.h: 50:     void MTOUCH_CVD_ScanA_3(void);
+[v _MTOUCH_CVD_ScanA_3 `(v ~T0 @X0 0 ef ]
+"51
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.h: 51:     void MTOUCH_CVD_ScanB_3(void);
+[v _MTOUCH_CVD_ScanB_3 `(v ~T0 @X0 0 ef ]
+"53
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.h: 53:     void MTOUCH_CVD_ScanA_4(void);
+[v _MTOUCH_CVD_ScanA_4 `(v ~T0 @X0 0 ef ]
+"54
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.h: 54:     void MTOUCH_CVD_ScanB_4(void);
+[v _MTOUCH_CVD_ScanB_4 `(v ~T0 @X0 0 ef ]
+"56
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.h: 56:     void MTOUCH_CVD_ScanA_5(void);
+[v _MTOUCH_CVD_ScanA_5 `(v ~T0 @X0 0 ef ]
+"57
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.h: 57:     void MTOUCH_CVD_ScanB_5(void);
+[v _MTOUCH_CVD_ScanB_5 `(v ~T0 @X0 0 ef ]
+"59
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.h: 59:     void MTOUCH_CVD_ScanA_6(void);
+[v _MTOUCH_CVD_ScanA_6 `(v ~T0 @X0 0 ef ]
+"60
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.h: 60:     void MTOUCH_CVD_ScanB_6(void);
+[v _MTOUCH_CVD_ScanB_6 `(v ~T0 @X0 0 ef ]
+"62
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.h: 62:     void MTOUCH_CVD_ScanA_7(void);
+[v _MTOUCH_CVD_ScanA_7 `(v ~T0 @X0 0 ef ]
+"63
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.h: 63:     void MTOUCH_CVD_ScanB_7(void);
+[v _MTOUCH_CVD_ScanB_7 `(v ~T0 @X0 0 ef ]
+"65
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.h: 65:     void MTOUCH_CVD_ScanA_8(void);
+[v _MTOUCH_CVD_ScanA_8 `(v ~T0 @X0 0 ef ]
+"66
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.h: 66:     void MTOUCH_CVD_ScanB_8(void);
+[v _MTOUCH_CVD_ScanB_8 `(v ~T0 @X0 0 ef ]
+"68
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.h: 68:     void MTOUCH_CVD_ScanA_9(void);
+[v _MTOUCH_CVD_ScanA_9 `(v ~T0 @X0 0 ef ]
+"69
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.h: 69:     void MTOUCH_CVD_ScanB_9(void);
+[v _MTOUCH_CVD_ScanB_9 `(v ~T0 @X0 0 ef ]
+"151 mcc_generated_files/mtouch/mtouch_sensor.c
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 151: enum mtouch_sensor_error MTOUCH_Sensor_Initialize(enum mtouch_sensor_names sensor)
+[c E2481 0 -1 -2 -3 -4 -5 -6 .. ]
+[n E2481 mtouch_sensor_error MTOUCH_SENSOR_ERROR_none MTOUCH_SENSOR_ERROR_invalid_index MTOUCH_SENSOR_ERROR_interrupt_notEnabled MTOUCH_SENSOR_ERROR_invalid_calibrate MTOUCH_SENSOR_ERROR_tooManyRetries MTOUCH_SENSOR_ERROR_scanOverrun MTOUCH_SENSOR_ERROR_interruptedScan  ]
+"106 mcc_generated_files/mtouch/mtouch_sensor.h
+[; ;mcc_generated_files/mtouch/mtouch_sensor.h: 106:     void MTOUCH_Sensor_Enable (enum mtouch_sensor_names sensor);
+[v _MTOUCH_Sensor_Enable `(v ~T0 @X0 0 ef1`E2470 ]
+[v F2655 `(v ~T0 @X0 1 tf1`*S355 ]
+"97 mcc_generated_files/mtouch/mtouch_sensor.c
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 97: static __attribute__((inline)) void Sensor_Sampled_Reset (mtouch_sensor_t* sensor);
+[v _Sensor_Sampled_Reset `TF2655 ~T0 @X0 0 s ]
+"1887 /Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1887: extern volatile unsigned char ADCON0 __attribute__((address(0x09D)));
+[v _ADCON0 `Vuc ~T0 @X0 0 e@157 ]
+"1967
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1967: extern volatile unsigned char ADCON1 __attribute__((address(0x09E)));
+[v _ADCON1 `Vuc ~T0 @X0 0 e@158 ]
+"90 mcc_generated_files/mtouch/mtouch_sensor.c
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 90: static enum mtouch_sensor_error Sensor_Service (enum mtouch_sensor_names name);
+[v _Sensor_Service `(E2481 ~T0 @X0 0 sf1`E2470 ]
+"92
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 92: static enum mtouch_sensor_error Sensor_Acquisition (mtouch_sensor_t* sensor);
+[v _Sensor_Acquisition `(E2481 ~T0 @X0 0 sf1`*S355 ]
+"100
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 100: static _Bool Sensor_isEnabled (mtouch_sensor_t* sensor);
+[v _Sensor_isEnabled `(a ~T0 @X0 0 sf1`*S355 ]
+"102
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 102: static void Sensor_RawSample_Update (mtouch_sensor_t* sensor);
+[v _Sensor_RawSample_Update `(v ~T0 @X0 0 sf1`*S355 ]
+[v F2652 `(v ~T0 @X0 1 tf1`*S355 ]
+"96
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 96: static __attribute__((inline)) void Sensor_setSampled (mtouch_sensor_t* sensor);
+[v _Sensor_setSampled `TF2652 ~T0 @X0 0 s ]
+"93
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 93: static enum mtouch_sensor_error Sensor_Acq_ExecutePacket (mtouch_sensor_t* sensor);
+[v _Sensor_Acq_ExecutePacket `(E2481 ~T0 @X0 0 sf1`*S355 ]
+"51 /Applications/microchip/xc8/v2.10/pic/include/c99/stdlib.h
+[; ;/Applications/microchip/xc8/v2.10/pic/include/c99/stdlib.h: 51: int abs (int);
+[v _abs `(i ~T0 @X0 0 ef1`i ]
+[v F2658 `(v ~T0 @X0 1 tf1`*S355 ]
+"98 mcc_generated_files/mtouch/mtouch_sensor.c
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 98: static __attribute__((inline)) void Sensor_setActive (mtouch_sensor_t* sensor);
+[v _Sensor_setActive `TF2658 ~T0 @X0 0 s ]
+[v F2661 `(v ~T0 @X0 1 tf1`*S355 ]
+"99
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 99: static __attribute__((inline)) void Sensor_setInactive (mtouch_sensor_t* sensor);
+[v _Sensor_setInactive `TF2661 ~T0 @X0 0 s ]
+"357 /Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 357:     struct {
+[s S31 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S31 . IOCIF INTF TMR0IF IOCIE INTE TMR0IE PEIE GIE ]
+"367
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 367:     struct {
+[s S32 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S32 . . T0IF . T0IE ]
+"356
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 356: typedef union {
+[u S30 `S31 1 `S32 1 ]
+[n S30 . . . ]
+"374
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 374: extern volatile INTCONbits_t INTCONbits __attribute__((address(0x00B)));
+[v _INTCONbits `VS30 ~T0 @X0 0 e@11 ]
+"91 mcc_generated_files/mtouch/mtouch_sensor.c
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 91: static void Sensor_setScanFunction (mtouch_sensor_t* sensor);
+[v _Sensor_setScanFunction `(v ~T0 @X0 0 sf1`*S355 ]
+"62 mcc_generated_files/mtouch/mtouch_random.h
+[; ;mcc_generated_files/mtouch/mtouch_random.h: 62:     uint8_t MTOUCH_Random(void);
+[v _MTOUCH_Random `(uc ~T0 @X0 0 ef ]
+"94 mcc_generated_files/mtouch/mtouch_sensor.c
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 94: static void Sensor_Acq_ExecuteScan (void);
+[v _Sensor_Acq_ExecuteScan `(v ~T0 @X0 0 sf ]
+"106
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 106: static void MTOUCH_Delay (void);
+[v _MTOUCH_Delay `(v ~T0 @X0 0 sf ]
+"1893 /Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1893:     struct {
+[s S103 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S103 . ADON GO_nDONE CHS0 CHS1 CHS2 CHS3 CHS4 ]
+"1902
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1902:     struct {
+[s S104 :1 `uc 1 :1 `uc 1 :5 `uc 1 ]
+[n S104 . . ADGO CHS ]
+"1907
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1907:     struct {
+[s S105 :1 `uc 1 :1 `uc 1 ]
+[n S105 . . GO ]
+"1892
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1892: typedef union {
+[u S102 `S103 1 `S104 1 `S105 1 ]
+[n S102 . . . . ]
+"1912
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1912: extern volatile ADCON0bits_t ADCON0bits __attribute__((address(0x09D)));
+[v _ADCON0bits `VS102 ~T0 @X0 0 e@157 ]
+"1840
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1840: extern volatile unsigned short ADRES __attribute__((address(0x09B)));
+[v _ADRES `Vus ~T0 @X0 0 e@155 ]
+[v F2744 `(v ~T0 @X0 0 tf1`E2470 ]
+[v F2747 `(v ~T0 @X0 0 tf1`E2470 ]
+"54 /Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 54: __asm("INDF0 equ 00h");
+[; <" INDF0 equ 00h ;# ">
+"74
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 74: __asm("INDF1 equ 01h");
+[; <" INDF1 equ 01h ;# ">
+"94
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 94: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"114
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 114: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"177
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 177: __asm("FSR0L equ 04h");
+[; <" FSR0L equ 04h ;# ">
+"197
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 197: __asm("FSR0H equ 05h");
+[; <" FSR0H equ 05h ;# ">
+"221
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 221: __asm("FSR1L equ 06h");
+[; <" FSR1L equ 06h ;# ">
+"241
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 241: __asm("FSR1H equ 07h");
+[; <" FSR1H equ 07h ;# ">
+"261
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 261: __asm("BSR equ 08h");
+[; <" BSR equ 08h ;# ">
+"313
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 313: __asm("WREG equ 09h");
+[; <" WREG equ 09h ;# ">
+"333
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 333: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"353
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 353: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"431
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 431: __asm("PORTA equ 0Ch");
+[; <" PORTA equ 0Ch ;# ">
+"493
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 493: __asm("PORTB equ 0Dh");
+[; <" PORTB equ 0Dh ;# ">
+"555
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 555: __asm("PIR1 equ 011h");
+[; <" PIR1 equ 011h ;# ">
+"617
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 617: __asm("PIR2 equ 012h");
+[; <" PIR2 equ 012h ;# ">
+"668
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 668: __asm("PIR3 equ 013h");
+[; <" PIR3 equ 013h ;# ">
+"708
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 708: __asm("PIR4 equ 014h");
+[; <" PIR4 equ 014h ;# ">
+"734
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 734: __asm("TMR0 equ 015h");
+[; <" TMR0 equ 015h ;# ">
+"754
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 754: __asm("TMR1 equ 016h");
+[; <" TMR1 equ 016h ;# ">
+"761
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 761: __asm("TMR1L equ 016h");
+[; <" TMR1L equ 016h ;# ">
+"781
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 781: __asm("TMR1H equ 017h");
+[; <" TMR1H equ 017h ;# ">
+"801
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 801: __asm("T1CON equ 018h");
+[; <" T1CON equ 018h ;# ">
+"873
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 873: __asm("T1GCON equ 019h");
+[; <" T1GCON equ 019h ;# ">
+"943
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 943: __asm("TMR2 equ 01Ah");
+[; <" TMR2 equ 01Ah ;# ">
+"963
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 963: __asm("PR2 equ 01Bh");
+[; <" PR2 equ 01Bh ;# ">
+"983
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 983: __asm("T2CON equ 01Ch");
+[; <" T2CON equ 01Ch ;# ">
+"1054
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1054: __asm("CPSCON0 equ 01Eh");
+[; <" CPSCON0 equ 01Eh ;# ">
+"1108
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1108: __asm("CPSCON1 equ 01Fh");
+[; <" CPSCON1 equ 01Fh ;# ">
+"1154
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1154: __asm("TRISA equ 08Ch");
+[; <" TRISA equ 08Ch ;# ">
+"1216
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1216: __asm("TRISB equ 08Dh");
+[; <" TRISB equ 08Dh ;# ">
+"1278
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1278: __asm("PIE1 equ 091h");
+[; <" PIE1 equ 091h ;# ">
+"1340
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1340: __asm("PIE2 equ 092h");
+[; <" PIE2 equ 092h ;# ">
+"1391
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1391: __asm("PIE3 equ 093h");
+[; <" PIE3 equ 093h ;# ">
+"1431
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1431: __asm("PIE4 equ 094h");
+[; <" PIE4 equ 094h ;# ">
+"1457
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1457: __asm("OPTION_REG equ 095h");
+[; <" OPTION_REG equ 095h ;# ">
+"1540
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1540: __asm("PCON equ 096h");
+[; <" PCON equ 096h ;# ">
+"1591
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1591: __asm("WDTCON equ 097h");
+[; <" WDTCON equ 097h ;# ">
+"1650
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1650: __asm("OSCTUNE equ 098h");
+[; <" OSCTUNE equ 098h ;# ">
+"1708
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1708: __asm("OSCCON equ 099h");
+[; <" OSCCON equ 099h ;# ">
+"1780
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1780: __asm("OSCSTAT equ 09Ah");
+[; <" OSCSTAT equ 09Ah ;# ">
+"1842
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1842: __asm("ADRES equ 09Bh");
+[; <" ADRES equ 09Bh ;# ">
+"1849
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1849: __asm("ADRESL equ 09Bh");
+[; <" ADRESL equ 09Bh ;# ">
+"1869
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1869: __asm("ADRESH equ 09Ch");
+[; <" ADRESH equ 09Ch ;# ">
+"1889
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1889: __asm("ADCON0 equ 09Dh");
+[; <" ADCON0 equ 09Dh ;# ">
+"1969
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 1969: __asm("ADCON1 equ 09Eh");
+[; <" ADCON1 equ 09Eh ;# ">
+"2041
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 2041: __asm("LATA equ 010Ch");
+[; <" LATA equ 010Ch ;# ">
+"2098
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 2098: __asm("LATB equ 010Dh");
+[; <" LATB equ 010Dh ;# ">
+"2160
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 2160: __asm("CM1CON0 equ 0111h");
+[; <" CM1CON0 equ 0111h ;# ">
+"2217
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 2217: __asm("CM1CON1 equ 0112h");
+[; <" CM1CON1 equ 0112h ;# ">
+"2283
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 2283: __asm("CM2CON0 equ 0113h");
+[; <" CM2CON0 equ 0113h ;# ">
+"2340
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 2340: __asm("CM2CON1 equ 0114h");
+[; <" CM2CON1 equ 0114h ;# ">
+"2406
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 2406: __asm("CMOUT equ 0115h");
+[; <" CMOUT equ 0115h ;# ">
+"2432
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 2432: __asm("BORCON equ 0116h");
+[; <" BORCON equ 0116h ;# ">
+"2459
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 2459: __asm("FVRCON equ 0117h");
+[; <" FVRCON equ 0117h ;# ">
+"2535
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 2535: __asm("DACCON0 equ 0118h");
+[; <" DACCON0 equ 0118h ;# ">
+"2596
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 2596: __asm("DACCON1 equ 0119h");
+[; <" DACCON1 equ 0119h ;# ">
+"2648
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 2648: __asm("SRCON0 equ 011Ah");
+[; <" SRCON0 equ 011Ah ;# ">
+"2719
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 2719: __asm("SRCON1 equ 011Bh");
+[; <" SRCON1 equ 011Bh ;# ">
+"2781
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 2781: __asm("APFCON0 equ 011Dh");
+[; <" APFCON0 equ 011Dh ;# ">
+"2843
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 2843: __asm("APFCON1 equ 011Eh");
+[; <" APFCON1 equ 011Eh ;# ">
+"2863
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 2863: __asm("ANSELA equ 018Ch");
+[; <" ANSELA equ 018Ch ;# ">
+"2915
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 2915: __asm("ANSELB equ 018Dh");
+[; <" ANSELB equ 018Dh ;# ">
+"2980
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 2980: __asm("EEADR equ 0191h");
+[; <" EEADR equ 0191h ;# ">
+"2987
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 2987: __asm("EEADRL equ 0191h");
+[; <" EEADRL equ 0191h ;# ">
+"3007
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3007: __asm("EEADRH equ 0192h");
+[; <" EEADRH equ 0192h ;# ">
+"3027
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3027: __asm("EEDAT equ 0193h");
+[; <" EEDAT equ 0193h ;# ">
+"3034
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3034: __asm("EEDATL equ 0193h");
+[; <" EEDATL equ 0193h ;# ">
+"3039
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3039: __asm("EEDATA equ 0193h");
+[; <" EEDATA equ 0193h ;# ">
+"3072
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3072: __asm("EEDATH equ 0194h");
+[; <" EEDATH equ 0194h ;# ">
+"3092
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3092: __asm("EECON1 equ 0195h");
+[; <" EECON1 equ 0195h ;# ">
+"3154
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3154: __asm("EECON2 equ 0196h");
+[; <" EECON2 equ 0196h ;# ">
+"3174
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3174: __asm("RCREG equ 0199h");
+[; <" RCREG equ 0199h ;# ">
+"3194
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3194: __asm("TXREG equ 019Ah");
+[; <" TXREG equ 019Ah ;# ">
+"3214
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3214: __asm("SP1BRG equ 019Bh");
+[; <" SP1BRG equ 019Bh ;# ">
+"3221
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3221: __asm("SP1BRGL equ 019Bh");
+[; <" SP1BRGL equ 019Bh ;# ">
+"3226
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3226: __asm("SPBRG equ 019Bh");
+[; <" SPBRG equ 019Bh ;# ">
+"3230
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3230: __asm("SPBRGL equ 019Bh");
+[; <" SPBRGL equ 019Bh ;# ">
+"3275
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3275: __asm("SP1BRGH equ 019Ch");
+[; <" SP1BRGH equ 019Ch ;# ">
+"3280
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3280: __asm("SPBRGH equ 019Ch");
+[; <" SPBRGH equ 019Ch ;# ">
+"3313
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3313: __asm("RCSTA equ 019Dh");
+[; <" RCSTA equ 019Dh ;# ">
+"3375
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3375: __asm("TXSTA equ 019Eh");
+[; <" TXSTA equ 019Eh ;# ">
+"3437
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3437: __asm("BAUDCON equ 019Fh");
+[; <" BAUDCON equ 019Fh ;# ">
+"3489
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3489: __asm("WPUA equ 020Ch");
+[; <" WPUA equ 020Ch ;# ">
+"3518
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3518: __asm("WPUB equ 020Dh");
+[; <" WPUB equ 020Dh ;# ">
+"3588
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3588: __asm("SSP1BUF equ 0211h");
+[; <" SSP1BUF equ 0211h ;# ">
+"3593
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3593: __asm("SSPBUF equ 0211h");
+[; <" SSPBUF equ 0211h ;# ">
+"3626
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3626: __asm("SSP1ADD equ 0212h");
+[; <" SSP1ADD equ 0212h ;# ">
+"3631
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3631: __asm("SSPADD equ 0212h");
+[; <" SSPADD equ 0212h ;# ">
+"3664
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3664: __asm("SSP1MSK equ 0213h");
+[; <" SSP1MSK equ 0213h ;# ">
+"3669
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3669: __asm("SSPMSK equ 0213h");
+[; <" SSPMSK equ 0213h ;# ">
+"3702
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3702: __asm("SSP1STAT equ 0214h");
+[; <" SSP1STAT equ 0214h ;# ">
+"3707
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3707: __asm("SSPSTAT equ 0214h");
+[; <" SSPSTAT equ 0214h ;# ">
+"3824
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3824: __asm("SSP1CON1 equ 0215h");
+[; <" SSP1CON1 equ 0215h ;# ">
+"3829
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3829: __asm("SSPCON1 equ 0215h");
+[; <" SSPCON1 equ 0215h ;# ">
+"3833
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 3833: __asm("SSPCON equ 0215h");
+[; <" SSPCON equ 0215h ;# ">
+"4028
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 4028: __asm("SSP1CON2 equ 0216h");
+[; <" SSP1CON2 equ 0216h ;# ">
+"4033
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 4033: __asm("SSPCON2 equ 0216h");
+[; <" SSPCON2 equ 0216h ;# ">
+"4150
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 4150: __asm("SSP1CON3 equ 0217h");
+[; <" SSP1CON3 equ 0217h ;# ">
+"4155
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 4155: __asm("SSPCON3 equ 0217h");
+[; <" SSPCON3 equ 0217h ;# ">
+"4272
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 4272: __asm("SSP2BUF equ 0219h");
+[; <" SSP2BUF equ 0219h ;# ">
+"4292
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 4292: __asm("SSP2ADD equ 021Ah");
+[; <" SSP2ADD equ 021Ah ;# ">
+"4312
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 4312: __asm("SSP2MSK equ 021Bh");
+[; <" SSP2MSK equ 021Bh ;# ">
+"4332
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 4332: __asm("SSP2STAT equ 021Ch");
+[; <" SSP2STAT equ 021Ch ;# ">
+"4394
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 4394: __asm("SSP2CON1 equ 021Dh");
+[; <" SSP2CON1 equ 021Dh ;# ">
+"4464
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 4464: __asm("SSP2CON2 equ 021Eh");
+[; <" SSP2CON2 equ 021Eh ;# ">
+"4526
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 4526: __asm("SSP2CON3 equ 021Fh");
+[; <" SSP2CON3 equ 021Fh ;# ">
+"4588
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 4588: __asm("CCPR1 equ 0291h");
+[; <" CCPR1 equ 0291h ;# ">
+"4595
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 4595: __asm("CCPR1L equ 0291h");
+[; <" CCPR1L equ 0291h ;# ">
+"4615
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 4615: __asm("CCPR1H equ 0292h");
+[; <" CCPR1H equ 0292h ;# ">
+"4635
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 4635: __asm("CCP1CON equ 0293h");
+[; <" CCP1CON equ 0293h ;# ">
+"4717
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 4717: __asm("PWM1CON equ 0294h");
+[; <" PWM1CON equ 0294h ;# ">
+"4787
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 4787: __asm("CCP1AS equ 0295h");
+[; <" CCP1AS equ 0295h ;# ">
+"4792
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 4792: __asm("ECCP1AS equ 0295h");
+[; <" ECCP1AS equ 0295h ;# ">
+"4949
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 4949: __asm("PSTR1CON equ 0296h");
+[; <" PSTR1CON equ 0296h ;# ">
+"4993
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 4993: __asm("CCPR2 equ 0298h");
+[; <" CCPR2 equ 0298h ;# ">
+"5000
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 5000: __asm("CCPR2L equ 0298h");
+[; <" CCPR2L equ 0298h ;# ">
+"5020
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 5020: __asm("CCPR2H equ 0299h");
+[; <" CCPR2H equ 0299h ;# ">
+"5040
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 5040: __asm("CCP2CON equ 029Ah");
+[; <" CCP2CON equ 029Ah ;# ">
+"5122
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 5122: __asm("PWM2CON equ 029Bh");
+[; <" PWM2CON equ 029Bh ;# ">
+"5192
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 5192: __asm("CCP2AS equ 029Ch");
+[; <" CCP2AS equ 029Ch ;# ">
+"5197
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 5197: __asm("ECCP2AS equ 029Ch");
+[; <" ECCP2AS equ 029Ch ;# ">
+"5354
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 5354: __asm("PSTR2CON equ 029Dh");
+[; <" PSTR2CON equ 029Dh ;# ">
+"5398
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 5398: __asm("CCPTMRS equ 029Eh");
+[; <" CCPTMRS equ 029Eh ;# ">
+"5403
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 5403: __asm("CCPTMRS0 equ 029Eh");
+[; <" CCPTMRS0 equ 029Eh ;# ">
+"5572
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 5572: __asm("CCPR3 equ 0311h");
+[; <" CCPR3 equ 0311h ;# ">
+"5579
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 5579: __asm("CCPR3L equ 0311h");
+[; <" CCPR3L equ 0311h ;# ">
+"5599
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 5599: __asm("CCPR3H equ 0312h");
+[; <" CCPR3H equ 0312h ;# ">
+"5619
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 5619: __asm("CCP3CON equ 0313h");
+[; <" CCP3CON equ 0313h ;# ">
+"5683
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 5683: __asm("CCPR4 equ 0318h");
+[; <" CCPR4 equ 0318h ;# ">
+"5690
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 5690: __asm("CCPR4L equ 0318h");
+[; <" CCPR4L equ 0318h ;# ">
+"5710
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 5710: __asm("CCPR4H equ 0319h");
+[; <" CCPR4H equ 0319h ;# ">
+"5730
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 5730: __asm("CCP4CON equ 031Ah");
+[; <" CCP4CON equ 031Ah ;# ">
+"5794
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 5794: __asm("IOCBP equ 0394h");
+[; <" IOCBP equ 0394h ;# ">
+"5864
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 5864: __asm("IOCBN equ 0395h");
+[; <" IOCBN equ 0395h ;# ">
+"5934
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 5934: __asm("IOCBF equ 0396h");
+[; <" IOCBF equ 0396h ;# ">
+"6004
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 6004: __asm("CLKRCON equ 039Ah");
+[; <" CLKRCON equ 039Ah ;# ">
+"6080
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 6080: __asm("MDCON equ 039Ch");
+[; <" MDCON equ 039Ch ;# ">
+"6131
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 6131: __asm("MDSRC equ 039Dh");
+[; <" MDSRC equ 039Dh ;# ">
+"6184
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 6184: __asm("MDCARL equ 039Eh");
+[; <" MDCARL equ 039Eh ;# ">
+"6249
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 6249: __asm("MDCARH equ 039Fh");
+[; <" MDCARH equ 039Fh ;# ">
+"6314
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 6314: __asm("TMR4 equ 0415h");
+[; <" TMR4 equ 0415h ;# ">
+"6334
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 6334: __asm("PR4 equ 0416h");
+[; <" PR4 equ 0416h ;# ">
+"6354
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 6354: __asm("T4CON equ 0417h");
+[; <" T4CON equ 0417h ;# ">
+"6425
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 6425: __asm("TMR6 equ 041Ch");
+[; <" TMR6 equ 041Ch ;# ">
+"6445
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 6445: __asm("PR6 equ 041Dh");
+[; <" PR6 equ 041Dh ;# ">
+"6465
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 6465: __asm("T6CON equ 041Eh");
+[; <" T6CON equ 041Eh ;# ">
+"6536
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 6536: __asm("STATUS_SHAD equ 0FE4h");
+[; <" STATUS_SHAD equ 0FE4h ;# ">
+"6568
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 6568: __asm("WREG_SHAD equ 0FE5h");
+[; <" WREG_SHAD equ 0FE5h ;# ">
+"6588
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 6588: __asm("BSR_SHAD equ 0FE6h");
+[; <" BSR_SHAD equ 0FE6h ;# ">
+"6608
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 6608: __asm("PCLATH_SHAD equ 0FE7h");
+[; <" PCLATH_SHAD equ 0FE7h ;# ">
+"6628
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 6628: __asm("FSR0L_SHAD equ 0FE8h");
+[; <" FSR0L_SHAD equ 0FE8h ;# ">
+"6648
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 6648: __asm("FSR0H_SHAD equ 0FE9h");
+[; <" FSR0H_SHAD equ 0FE9h ;# ">
+"6668
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 6668: __asm("FSR1L_SHAD equ 0FEAh");
+[; <" FSR1L_SHAD equ 0FEAh ;# ">
+"6688
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 6688: __asm("FSR1H_SHAD equ 0FEBh");
+[; <" FSR1H_SHAD equ 0FEBh ;# ">
+"6708
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 6708: __asm("STKPTR equ 0FEDh");
+[; <" STKPTR equ 0FEDh ;# ">
+"6728
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 6728: __asm("TOSL equ 0FEEh");
+[; <" TOSL equ 0FEEh ;# ">
+"6748
+[; ;/Applications/microchip/xc8/v2.10/pic/include/pic16f1827.h: 6748: __asm("TOSH equ 0FEFh");
+[; <" TOSH equ 0FEFh ;# ">
+"113 mcc_generated_files/mtouch/mtouch_sensor.c
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 113: static void (*callback_sampled)(enum mtouch_sensor_names sensor) = Sensor_DefaultCallback;
+[v _callback_sampled `*F2671 ~T0 @X0 1 s ]
+[i _callback_sampled
+&U _Sensor_DefaultCallback
+]
+"120
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 120: static volatile mtouch_sensor_globalflags_t sensor_globalFlags;
+[v _sensor_globalFlags `VS354 ~T0 @X0 1 s ]
+"121
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 121: static enum mtouch_sensor_names currentScannSensor;
+[v _currentScannSensor `E2470 ~T0 @X0 1 s ]
+"122
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 122: static mtouch_sensor_packetcounter_t packet_counter;
+[v _packet_counter `uc ~T0 @X0 1 s ]
+"123
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 123: static mtouch_sensor_packetsample_t packet_sample;
+[v _packet_sample `us ~T0 @X0 1 s ]
+"124
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 124: static mtouch_sensor_sampledelay_t sample_delay;
+[v _sample_delay `uc ~T0 @X0 1 s ]
+"125
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 125: static _Bool lowpowerActivated = 0;
+[v _lowpowerActivated `a ~T0 @X0 1 s ]
+[i _lowpowerActivated
+-> -> 0 `i `a
+]
+"126
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 126: static scanFunction Sensor_scanA = MTOUCH_CVD_ScanA_0;
+[v _Sensor_scanA `*F2682 ~T0 @X0 1 s ]
+[i _Sensor_scanA
+&U _MTOUCH_CVD_ScanA_0
+]
+"127
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 127: static scanFunction Sensor_scanB = MTOUCH_CVD_ScanB_0;
+[v _Sensor_scanB `*F2685 ~T0 @X0 1 s ]
+[i _Sensor_scanB
+&U _MTOUCH_CVD_ScanB_0
+]
+"133
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 133: static mtouch_sensor_t mtouch_sensor[10u] ={
+[v _mtouch_sensor `S355 ~T0 @X0 -> 10 `i s ]
+[i _mtouch_sensor
+:U ..
+:U ..
+. `E2470 0
+&U _MTOUCH_CVD_ScanA_0
+&U _MTOUCH_CVD_ScanB_0
+-> -> 32 `ui `uc
+-> -> 0 `i `us
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+. `E2470 1
+&U _MTOUCH_CVD_ScanA_1
+&U _MTOUCH_CVD_ScanB_1
+-> -> 32 `ui `uc
+-> -> 0 `i `us
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+. `E2470 2
+&U _MTOUCH_CVD_ScanA_2
+&U _MTOUCH_CVD_ScanB_2
+-> -> 32 `ui `uc
+-> -> 0 `i `us
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+. `E2470 3
+&U _MTOUCH_CVD_ScanA_3
+&U _MTOUCH_CVD_ScanB_3
+-> -> 32 `ui `uc
+-> -> 0 `i `us
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+. `E2470 4
+&U _MTOUCH_CVD_ScanA_4
+&U _MTOUCH_CVD_ScanB_4
+-> -> 32 `ui `uc
+-> -> 0 `i `us
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+. `E2470 5
+&U _MTOUCH_CVD_ScanA_5
+&U _MTOUCH_CVD_ScanB_5
+-> -> 32 `ui `uc
+-> -> 0 `i `us
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+. `E2470 6
+&U _MTOUCH_CVD_ScanA_6
+&U _MTOUCH_CVD_ScanB_6
+-> -> 32 `ui `uc
+-> -> 0 `i `us
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+. `E2470 7
+&U _MTOUCH_CVD_ScanA_7
+&U _MTOUCH_CVD_ScanB_7
+-> -> 32 `ui `uc
+-> -> 0 `i `us
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+. `E2470 8
+&U _MTOUCH_CVD_ScanA_8
+&U _MTOUCH_CVD_ScanB_8
+-> -> 32 `ui `uc
+-> -> 0 `i `us
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+. `E2470 9
+&U _MTOUCH_CVD_ScanA_9
+&U _MTOUCH_CVD_ScanB_9
+-> -> 32 `ui `uc
+-> -> 0 `i `us
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+..
+]
+"151
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 151: enum mtouch_sensor_error MTOUCH_Sensor_Initialize(enum mtouch_sensor_names sensor)
+[v _MTOUCH_Sensor_Initialize `(E2481 ~T0 @X0 1 ef1`E2470 ]
+"152
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 152: {
+{
+[e :U _MTOUCH_Sensor_Initialize ]
+"151
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 151: enum mtouch_sensor_error MTOUCH_Sensor_Initialize(enum mtouch_sensor_names sensor)
+[v _sensor `E2470 ~T0 @X0 1 r1 ]
+"152
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 152: {
+[f ]
+"153
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 153:     MTOUCH_Sensor_Enable(sensor);
+[e ( _MTOUCH_Sensor_Enable (1 _sensor ]
+"154
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 154:     Sensor_Sampled_Reset(&mtouch_sensor[sensor]);
+[e ( _Sensor_Sampled_Reset (1 &U *U + &U _mtouch_sensor * -> _sensor `ux -> -> # *U &U _mtouch_sensor `ui `ux ]
+"156
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 156:     return MTOUCH_SENSOR_ERROR_none;
+[e ) . `E2481 0 ]
+[e $UE 356  ]
+"157
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 157: }
+[e :UE 356 ]
+}
+"165
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 165: void MTOUCH_Sensor_InitializeAll(void)
+[v _MTOUCH_Sensor_InitializeAll `(v ~T0 @X0 1 ef ]
+"166
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 166: {
+{
+[e :U _MTOUCH_Sensor_InitializeAll ]
+[f ]
+"167
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 167:     enum mtouch_sensor_names sensor;
+[v _sensor `E2470 ~T0 @X0 1 a ]
+"168
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 168:     for (sensor = 0; sensor < 10u; sensor++)
+{
+[e = _sensor -> -> 0 `i `E2470 ]
+[e $ < -> _sensor `ui -> 10 `ui 358  ]
+[e $U 359  ]
+[e :U 358 ]
+"169
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 169:     {
+{
+"170
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 170:         MTOUCH_Sensor_Initialize(sensor);
+[e ( _MTOUCH_Sensor_Initialize (1 _sensor ]
+"171
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 171:     }
+}
+[e ++ _sensor -> -> 1 `i `E2470 ]
+[e $ < -> _sensor `ui -> 10 `ui 358  ]
+[e :U 359 ]
+}
+"172
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 172: }
+[e :UE 357 ]
+}
+"180
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 180: void MTOUCH_Sensor_Scan_Initialize(void)
+[v _MTOUCH_Sensor_Scan_Initialize `(v ~T0 @X0 1 ef ]
+"181
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 181: {
+{
+[e :U _MTOUCH_Sensor_Scan_Initialize ]
+[f ]
+"183
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 183:     ADCON0 = (uint8_t)0;
+[e = _ADCON0 -> -> 0 `i `uc ]
+"184
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 184:     ADCON1 = (uint8_t)( 0x1<<7 | 0x2<<4 | 0x0 );
+[e = _ADCON1 -> | | << -> 1 `i -> 7 `i << -> 2 `i -> 4 `i -> 0 `i `uc ]
+"185
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 185: }
+[e :UE 361 ]
+}
+"195
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 195: _Bool MTOUCH_Sensor_SampleAll(void)
+[v _MTOUCH_Sensor_SampleAll `(a ~T0 @X0 1 ef ]
+"196
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 196: {
+{
+[e :U _MTOUCH_Sensor_SampleAll ]
+[f ]
+"197
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 197:     enum mtouch_sensor_names sensor;
+[v _sensor `E2470 ~T0 @X0 1 a ]
+"198
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 198:     for (sensor = 0; sensor < 10u; sensor++)
+{
+[e = _sensor -> -> 0 `i `E2470 ]
+[e $ < -> _sensor `ui -> 10 `ui 363  ]
+[e $U 364  ]
+[e :U 363 ]
+"199
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 199:     {
+{
+"200
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 200:         if(Sensor_Service(sensor)!= MTOUCH_SENSOR_ERROR_none)
+[e $ ! != -> ( _Sensor_Service (1 _sensor `i -> . `E2481 0 `i 366  ]
+"201
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 201:             return 0;
+[e ) -> -> 0 `i `a ]
+[e $UE 362  ]
+[e :U 366 ]
+"202
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 202:     }
+}
+[e ++ _sensor -> -> 1 `i `E2470 ]
+[e $ < -> _sensor `ui -> 10 `ui 363  ]
+[e :U 364 ]
+}
+"203
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 203:     return 1;
+[e ) -> -> 1 `i `a ]
+[e $UE 362  ]
+"204
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 204: }
+[e :UE 362 ]
+}
+"206
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 206: void MTOUCH_Sensor_startLowpower(void)
+[v _MTOUCH_Sensor_startLowpower `(v ~T0 @X0 1 ef ]
+"207
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 207: {
+{
+[e :U _MTOUCH_Sensor_startLowpower ]
+[f ]
+"208
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 208:     lowpowerActivated = 1;
+[e = _lowpowerActivated -> -> 1 `i `a ]
+"209
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 209: }
+[e :UE 367 ]
+}
+"211
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 211: void MTOUCH_Sensor_exitLowpower(void)
+[v _MTOUCH_Sensor_exitLowpower `(v ~T0 @X0 1 ef ]
+"212
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 212: {
+{
+[e :U _MTOUCH_Sensor_exitLowpower ]
+[f ]
+"213
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 213:     lowpowerActivated = 0;
+[e = _lowpowerActivated -> -> 0 `i `a ]
+"214
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 214: }
+[e :UE 368 ]
+}
+"223
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 223: _Bool MTOUCH_Sensor_isAnySensorActive(void)
+[v _MTOUCH_Sensor_isAnySensorActive `(a ~T0 @X0 1 ef ]
+"224
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 224: {
+{
+[e :U _MTOUCH_Sensor_isAnySensorActive ]
+[f ]
+"225
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 225:     enum mtouch_sensor_names sensor;
+[v _sensor `E2470 ~T0 @X0 1 a ]
+"227
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 227:     for (sensor = 0; sensor < 10u; sensor++)
+{
+[e = _sensor -> -> 0 `i `E2470 ]
+[e $ < -> _sensor `ui -> 10 `ui 370  ]
+[e $U 371  ]
+[e :U 370 ]
+"228
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 228:     {
+{
+"229
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 229:         if(mtouch_sensor[sensor].active)
+[e $ ! != -> . *U + &U _mtouch_sensor * -> _sensor `ux -> -> # *U &U _mtouch_sensor `ui `ux 7 `i -> 0 `i 373  ]
+"230
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 230:             return 1;
+[e ) -> -> 1 `i `a ]
+[e $UE 369  ]
+[e :U 373 ]
+"231
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 231:     }
+}
+[e ++ _sensor -> -> 1 `i `E2470 ]
+[e $ < -> _sensor `ui -> 10 `ui 370  ]
+[e :U 371 ]
+}
+"233
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 233:     return 0;
+[e ) -> -> 0 `i `a ]
+[e $UE 369  ]
+"234
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 234: }
+[e :UE 369 ]
+}
+"241
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 241: static enum mtouch_sensor_error Sensor_Service(enum mtouch_sensor_names name)
+[v _Sensor_Service `(E2481 ~T0 @X0 1 sf1`E2470 ]
+"242
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 242: {
+{
+[e :U _Sensor_Service ]
+"241
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 241: static enum mtouch_sensor_error Sensor_Service(enum mtouch_sensor_names name)
+[v _name `E2470 ~T0 @X0 1 r1 ]
+"242
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 242: {
+[f ]
+"243
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 243:     mtouch_sensor_t* sensor = &mtouch_sensor[name];
+[v _sensor `*S355 ~T0 @X0 1 a ]
+[e = _sensor &U *U + &U _mtouch_sensor * -> _name `ux -> -> # *U &U _mtouch_sensor `ui `ux ]
+"244
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 244:     enum mtouch_sensor_error error = Sensor_Acquisition(sensor);
+[v _error `E2481 ~T0 @X0 1 a ]
+[e = _error ( _Sensor_Acquisition (1 _sensor ]
+"247
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 247:     switch(error)
+[e $U 376  ]
+"248
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 248:     {
+{
+"249
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 249:         case MTOUCH_SENSOR_ERROR_none:
+[e :U 377 ]
+"250
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 250:         {
+{
+"251
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 251:             if(Sensor_isEnabled(sensor))
+[e $ ! != -> ( _Sensor_isEnabled (1 _sensor `i -> 0 `i 378  ]
+"252
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 252:             {
+{
+"257
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 257:                 if(!lowpowerActivated)
+[e $ ! ! != -> _lowpowerActivated `i -> 0 `i 379  ]
+"258
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 258:                 {
+{
+"259
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 259:                     Sensor_RawSample_Update(sensor);
+[e ( _Sensor_RawSample_Update (1 _sensor ]
+"260
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 260:                 }
+}
+[e :U 379 ]
+"261
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 261:                 Sensor_setSampled(sensor);
+[e ( _Sensor_setSampled (1 _sensor ]
+"262
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 262:                 callback_sampled(name);
+[e ( *U _callback_sampled (1 _name ]
+"263
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 263:             }
+}
+[e :U 378 ]
+"264
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 264:         }
+}
+"265
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 265:         break;
+[e $U 375  ]
+"267
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 267:         case MTOUCH_SENSOR_ERROR_invalid_index: break;
+[e :U 380 ]
+[e $U 375  ]
+"268
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 268:         case MTOUCH_SENSOR_ERROR_interrupt_notEnabled: break;
+[e :U 381 ]
+[e $U 375  ]
+"269
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 269:         case MTOUCH_SENSOR_ERROR_invalid_calibrate: break;
+[e :U 382 ]
+[e $U 375  ]
+"271
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 271:         default: break;
+[e :U 383 ]
+[e $U 375  ]
+"272
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 272:     }
+}
+[e $U 375  ]
+[e :U 376 ]
+[e [\ -> _error `i , $ . `E2481 0 377
+ , $ . `E2481 1 380
+ , $ . `E2481 2 381
+ , $ . `E2481 3 382
+ 383 ]
+[e :U 375 ]
+"274
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 274:     return error;
+[e ) _error ]
+[e $UE 374  ]
+"275
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 275: }
+[e :UE 374 ]
+}
+"278
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 278: void MTOUCH_Sensor_NotifyInterruptOccurred(void)
+[v _MTOUCH_Sensor_NotifyInterruptOccurred `(v ~T0 @X0 1 ef ]
+"279
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 279: {
+{
+[e :U _MTOUCH_Sensor_NotifyInterruptOccurred ]
+[f ]
+"280
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 280:     if(!sensor_globalFlags.packet_done)
+[e $ ! ! != -> . _sensor_globalFlags 0 `i -> 0 `i 385  ]
+"281
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 281:         sensor_globalFlags.interrupted = 1;
+[e = . _sensor_globalFlags 1 -> -> 1 `i `uc ]
+[e :U 385 ]
+"282
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 282: }
+[e :UE 384 ]
+}
+"288
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 288: static enum mtouch_sensor_error Sensor_Acquisition(mtouch_sensor_t* sensor)
+[v _Sensor_Acquisition `(E2481 ~T0 @X0 1 sf1`*S355 ]
+"289
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 289: {
+{
+[e :U _Sensor_Acquisition ]
+"288
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 288: static enum mtouch_sensor_error Sensor_Acquisition(mtouch_sensor_t* sensor)
+[v _sensor `*S355 ~T0 @X0 1 r1 ]
+"289
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 289: {
+[f ]
+"291
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 291:     uint8_t retry = (uint8_t)5u;
+[v _retry `uc ~T0 @X0 1 a ]
+[e = _retry -> -> 5 `ui `uc ]
+"293
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 293:     if(!Sensor_isEnabled(sensor))
+[e $ ! ! != -> ( _Sensor_isEnabled (1 _sensor `i -> 0 `i 387  ]
+"294
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 294:         return MTOUCH_SENSOR_ERROR_none;
+[e ) . `E2481 0 ]
+[e $UE 386  ]
+[e :U 387 ]
+"296
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 296:     while(Sensor_Acq_ExecutePacket(sensor))
+[e $U 388  ]
+[e :U 389 ]
+"297
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 297:     {
+{
+"298
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 298:         retry--;
+[e -- _retry -> -> 1 `i `uc ]
+"299
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 299:         if(retry == 0)
+[e $ ! == -> _retry `i -> 0 `i 391  ]
+"300
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 300:         {
+{
+"301
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 301:             return MTOUCH_SENSOR_ERROR_tooManyRetries;
+[e ) . `E2481 4 ]
+[e $UE 386  ]
+"302
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 302:         }
+}
+[e :U 391 ]
+"303
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 303:     }
+}
+[e :U 388 ]
+"296
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 296:     while(Sensor_Acq_ExecutePacket(sensor))
+[e $ != -> ( _Sensor_Acq_ExecutePacket (1 _sensor `i -> 0 `i 389  ]
+[e :U 390 ]
+"305
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 305:     if((mtouch_sensor_packetsample_t)abs(packet_sample - sensor->rawSample) > 100u)
+[e $ ! > -> -> ( _abs (1 -> - -> _packet_sample `ui -> . *U _sensor 4 `ui `i `us `ui -> 100 `ui 392  ]
+"306
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 306:     {
+{
+"307
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 307:         Sensor_setActive(sensor);
+[e ( _Sensor_setActive (1 _sensor ]
+"308
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 308:     }
+}
+[e $U 393  ]
+"309
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 309:     else
+[e :U 392 ]
+"310
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 310:     {
+{
+"311
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 311:         Sensor_setInactive(sensor);
+[e ( _Sensor_setInactive (1 _sensor ]
+"312
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 312:     }
+}
+[e :U 393 ]
+"314
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 314:     return MTOUCH_SENSOR_ERROR_none;
+[e ) . `E2481 0 ]
+[e $UE 386  ]
+"315
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 315: }
+[e :UE 386 ]
+}
+"323
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 323: static enum mtouch_sensor_error Sensor_Acq_ExecutePacket(mtouch_sensor_t* sensor)
+[v _Sensor_Acq_ExecutePacket `(E2481 ~T0 @X0 1 sf1`*S355 ]
+"324
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 324: {
+{
+[e :U _Sensor_Acq_ExecutePacket ]
+"323
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 323: static enum mtouch_sensor_error Sensor_Acq_ExecutePacket(mtouch_sensor_t* sensor)
+[v _sensor `*S355 ~T0 @X0 1 r1 ]
+"324
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 324: {
+[f ]
+"326
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 326:     enum mtouch_sensor_error error = MTOUCH_SENSOR_ERROR_none;
+[v _error `E2481 ~T0 @X0 1 a ]
+[e = _error . `E2481 0 ]
+"327
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 327:     uint8_t ADCON0_temp;
+[v _ADCON0_temp `uc ~T0 @X0 1 a ]
+"328
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 328:     uint8_t ADCON1_temp;
+[v _ADCON1_temp `uc ~T0 @X0 1 a ]
+"330
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 330:     uint8_t GIE_state;
+[v _GIE_state `uc ~T0 @X0 1 a ]
+"332
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 332:     ADCON0_temp = ADCON0;
+[e = _ADCON0_temp _ADCON0 ]
+"333
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 333:     ADCON1_temp = ADCON1;
+[e = _ADCON1_temp _ADCON1 ]
+"334
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 334:     MTOUCH_Sensor_Scan_Initialize();
+[e ( _MTOUCH_Sensor_Scan_Initialize ..  ]
+"336
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 336:     GIE_state = INTCONbits.GIE;
+[e = _GIE_state . . _INTCONbits 0 7 ]
+"338
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 338:     Sensor_setScanFunction(sensor);
+[e ( _Sensor_setScanFunction (1 _sensor ]
+"340
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 340:     currentScannSensor = sensor->sensor_name;
+[e = _currentScannSensor . *U _sensor 0 ]
+"341
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 341:     packet_counter = sensor->oversampling;
+[e = _packet_counter . *U _sensor 3 ]
+"342
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 342:     packet_sample = 0;
+[e = _packet_sample -> -> 0 `i `us ]
+"343
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 343:     sensor_globalFlags.packet_done = 0;
+[e = . _sensor_globalFlags 0 -> -> 0 `i `uc ]
+"344
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 344:     sample_delay = MTOUCH_Random();
+[e = _sample_delay ( _MTOUCH_Random ..  ]
+"345
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 345:     packet_sample = 0;
+[e = _packet_sample -> -> 0 `i `us ]
+"347
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 347:     sensor_globalFlags.interrupted = 0;
+[e = . _sensor_globalFlags 1 -> -> 0 `i `uc ]
+"350
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 350:     do
+[e :U 397 ]
+"351
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 351:     {
+{
+"352
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 352:         INTCONbits.GIE = (uint8_t)0;
+[e = . . _INTCONbits 0 7 -> -> 0 `i `uc ]
+"353
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 353:         Sensor_Acq_ExecuteScan();
+[e ( _Sensor_Acq_ExecuteScan ..  ]
+"354
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 354:         INTCONbits.GIE = GIE_state;
+[e = . . _INTCONbits 0 7 _GIE_state ]
+"355
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 355:         MTOUCH_Delay();
+[e ( _MTOUCH_Delay ..  ]
+"356
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 356:         while(ADCON0bits.GO_nDONE == 1);
+[e $U 398  ]
+[e :U 399 ]
+[e :U 398 ]
+[e $ == -> . . _ADCON0bits 0 1 `i -> 1 `i 399  ]
+[e :U 400 ]
+"357
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 357:     } while(sensor_globalFlags.packet_done == 0);
+}
+[e $ == -> . _sensor_globalFlags 0 `i -> 0 `i 397  ]
+[e :U 396 ]
+"360
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 360:     ADCON0 = ADCON0_temp;
+[e = _ADCON0 _ADCON0_temp ]
+"361
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 361:     ADCON1 = ADCON1_temp;
+[e = _ADCON1 _ADCON1_temp ]
+"363
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 363:     if(sensor_globalFlags.interrupted)
+[e $ ! != -> . _sensor_globalFlags 1 `i -> 0 `i 401  ]
+"364
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 364:     {
+{
+"365
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 365:         error = MTOUCH_SENSOR_ERROR_interruptedScan;
+[e = _error . `E2481 6 ]
+"366
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 366:     }
+}
+[e :U 401 ]
+"368
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 368:     return error;
+[e ) _error ]
+[e $UE 394  ]
+"369
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 369: }
+[e :UE 394 ]
+}
+"371
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 371: static void MTOUCH_Delay(void)
+[v _MTOUCH_Delay `(v ~T0 @X0 1 sf ]
+"372
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 372: {
+{
+[e :U _MTOUCH_Delay ]
+[f ]
+"373
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 373:     for(uint8_t i = sample_delay;i>0;i--)
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i _sample_delay ]
+[e $ > -> _i `i -> 0 `i 403  ]
+[e $U 404  ]
+[e :U 403 ]
+"374
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 374:     { }
+{
+}
+[e -- _i -> -> 1 `i `uc ]
+[e $ > -> _i `i -> 0 `i 403  ]
+[e :U 404 ]
+}
+"375
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 375: }
+[e :UE 402 ]
+}
+"387
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 387: static void Sensor_Acq_ExecuteScan(void)
+[v _Sensor_Acq_ExecuteScan `(v ~T0 @X0 1 sf ]
+"388
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 388: {
+{
+[e :U _Sensor_Acq_ExecuteScan ]
+[f ]
+"390
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 390:     mtouch_sensor_adcsample_t result = ADRES;
+[v _result `us ~T0 @X0 1 a ]
+[e = _result _ADRES ]
+"392
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 392:     if(sensor_globalFlags.packet_done)
+[e $ ! != -> . _sensor_globalFlags 0 `i -> 0 `i 407  ]
+"393
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 393:         return;
+[e $UE 406  ]
+[e :U 407 ]
+"395
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 395:     if (packet_counter != (uint8_t)0)
+[e $ ! != -> _packet_counter `i -> -> -> 0 `i `uc `i 408  ]
+"396
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 396:     {
+{
+"398
+[p w time ]
+[e $U 410  ]
+"399
+{
+"400
+[e :U 411 ]
+[e ( *U _Sensor_scanA ..  ]
+[e $U 409  ]
+"401
+[e :U 412 ]
+[e ( *U _Sensor_scanB ..  ]
+[e $U 409  ]
+"402
+[e :U 413 ]
+[e $U 409  ]
+"403
+}
+[e $U 409  ]
+[e :U 410 ]
+[e [\ & -> _packet_counter `i -> 1 `i , $ -> 0 `i 411
+ , $ -> 1 `i 412
+ 413 ]
+[e :U 409 ]
+"405
+[e $ ! != -> _packet_counter `i -> . *U + &U _mtouch_sensor * -> _currentScannSensor `ux -> -> # *U &U _mtouch_sensor `ui `ux 3 `i 414  ]
+"406
+{
+"407
+[e $ ! != & -> _packet_counter `i -> 1 `i -> 0 `i 415  ]
+"408
+{
+"409
+[e = _result -> - -> -> -> 1024 `ui `us `ui -> _result `ui `us ]
+"410
+}
+[e :U 415 ]
+"411
+[e =+ _packet_sample -> _result `us ]
+"412
+}
+[e :U 414 ]
+"413
+[e -- _packet_counter -> -> 1 `i `uc ]
+"414
+}
+[e $U 416  ]
+"415
+[e :U 408 ]
+"416
+{
+"417
+[e =+ _packet_sample -> _result `us ]
+"418
+[e = . _sensor_globalFlags 0 -> -> 1 `i `uc ]
+"419
+}
+[e :U 416 ]
+"420
+[e :UE 406 ]
+}
+"428
+[v _MTOUCH_Sensor_RawSample_Get `(us ~T0 @X0 1 ef1`E2470 ]
+"429
+{
+[e :U _MTOUCH_Sensor_RawSample_Get ]
+"428
+[v _name `E2470 ~T0 @X0 1 r1 ]
+"429
+[f ]
+"430
+[e $ ! < -> _name `ui -> 10 `ui 418  ]
+"431
+{
+"432
+[e ) . *U + &U _mtouch_sensor * -> _name `ux -> -> # *U &U _mtouch_sensor `ui `ux 4 ]
+[e $UE 417  ]
+"433
+}
+[e $U 419  ]
+"434
+[e :U 418 ]
+"435
+[e ) -> -> 0 `i `us ]
+[e $UE 417  ]
+[e :U 419 ]
+"436
+[e :UE 417 ]
+}
+"438
+[v _Sensor_RawSample_Update `(v ~T0 @X0 1 sf1`*S355 ]
+"439
+{
+[e :U _Sensor_RawSample_Update ]
+"438
+[v _sensor `*S355 ~T0 @X0 1 r1 ]
+"439
+[f ]
+"440
+[e $ ! == -> . . _INTCONbits 0 7 `i -> -> -> 1 `i `uc `i 421  ]
+"441
+{
+"442
+[e = . . _INTCONbits 0 7 -> -> 0 `i `uc ]
+"443
+[e = . *U _sensor 4 _packet_sample ]
+"444
+[e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
+"445
+}
+[e $U 422  ]
+"446
+[e :U 421 ]
+"447
+{
+"448
+[e = . *U _sensor 4 _packet_sample ]
+"449
+}
+[e :U 422 ]
+"450
+[e :UE 420 ]
+}
+"458
+[v _Sensor_DefaultCallback `(v ~T0 @X0 1 sf1`E2470 ]
+{
+[e :U _Sensor_DefaultCallback ]
+[v _sensor `E2470 ~T0 @X0 1 r1 ]
+[f ]
+[e :UE 423 ]
+}
+"459
+[v _MTOUCH_Sensor_SetSampledCallback `(v ~T0 @X0 1 ef1`*F2744 ]
+"460
+{
+[e :U _MTOUCH_Sensor_SetSampledCallback ]
+"459
+[v _callback `*F2747 ~T0 @X0 1 r1 ]
+"460
+[f ]
+"461
+[e = _callback_sampled _callback ]
+"462
+[e :UE 424 ]
+}
+"470
+[v _Sensor_setScanFunction `(v ~T0 @X0 1 sf1`*S355 ]
+"471
+{
+[e :U _Sensor_setScanFunction ]
+"470
+[v _sensor `*S355 ~T0 @X0 1 r1 ]
+"471
+[f ]
+"472
+[e = _Sensor_scanA . *U _sensor 1 ]
+"473
+[e = _Sensor_scanB . *U _sensor 2 ]
+"474
+[e :UE 425 ]
+}
+"483
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 483: void MTOUCH_Sensor_Disable(enum mtouch_sensor_names sensor)
+[v _MTOUCH_Sensor_Disable `(v ~T0 @X0 1 ef1`E2470 ]
+"484
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 484: {
+{
+[e :U _MTOUCH_Sensor_Disable ]
+"483
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 483: void MTOUCH_Sensor_Disable(enum mtouch_sensor_names sensor)
+[v _sensor `E2470 ~T0 @X0 1 r1 ]
+"484
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 484: {
+[f ]
+"485
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 485:     if(sensor < 10u)
+[e $ ! < -> _sensor `ui -> 10 `ui 427  ]
+"486
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 486:         mtouch_sensor[sensor].enabled = 0;
+[e = . *U + &U _mtouch_sensor * -> _sensor `ux -> -> # *U &U _mtouch_sensor `ui `ux 5 -> -> 0 `i `uc ]
+[e :U 427 ]
+"487
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 487: }
+[e :UE 426 ]
+}
+"489
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 489: void MTOUCH_Sensor_Enable(enum mtouch_sensor_names sensor)
+[v _MTOUCH_Sensor_Enable `(v ~T0 @X0 1 ef1`E2470 ]
+"490
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 490: {
+{
+[e :U _MTOUCH_Sensor_Enable ]
+"489
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 489: void MTOUCH_Sensor_Enable(enum mtouch_sensor_names sensor)
+[v _sensor `E2470 ~T0 @X0 1 r1 ]
+"490
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 490: {
+[f ]
+"491
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 491:     if(sensor < 10u)
+[e $ ! < -> _sensor `ui -> 10 `ui 429  ]
+"492
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 492:         mtouch_sensor[sensor].enabled = 1;
+[e = . *U + &U _mtouch_sensor * -> _sensor `ux -> -> # *U &U _mtouch_sensor `ui `ux 5 -> -> 1 `i `uc ]
+[e :U 429 ]
+"493
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 493: }
+[e :UE 428 ]
+}
+"495
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 495: _Bool MTOUCH_Sensor_isEnabled(enum mtouch_sensor_names sensor)
+[v _MTOUCH_Sensor_isEnabled `(a ~T0 @X0 1 ef1`E2470 ]
+"496
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 496: {
+{
+[e :U _MTOUCH_Sensor_isEnabled ]
+"495
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 495: _Bool MTOUCH_Sensor_isEnabled(enum mtouch_sensor_names sensor)
+[v _sensor `E2470 ~T0 @X0 1 r1 ]
+"496
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 496: {
+[f ]
+"497
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 497:     if(sensor < 10u)
+[e $ ! < -> _sensor `ui -> 10 `ui 431  ]
+"498
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 498:         return (_Bool)mtouch_sensor[sensor].enabled;
+[e ) -> . *U + &U _mtouch_sensor * -> _sensor `ux -> -> # *U &U _mtouch_sensor `ui `ux 5 `a ]
+[e $UE 430  ]
+[e $U 432  ]
+"499
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 499:     else
+[e :U 431 ]
+"500
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 500:         return 0;
+[e ) -> -> 0 `i `a ]
+[e $UE 430  ]
+[e :U 432 ]
+"501
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 501: }
+[e :UE 430 ]
+}
+"503
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 503: static _Bool Sensor_isEnabled(mtouch_sensor_t* sensor)
+[v _Sensor_isEnabled `(a ~T0 @X0 1 sf1`*S355 ]
+"504
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 504: {
+{
+[e :U _Sensor_isEnabled ]
+"503
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 503: static _Bool Sensor_isEnabled(mtouch_sensor_t* sensor)
+[v _sensor `*S355 ~T0 @X0 1 r1 ]
+"504
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 504: {
+[f ]
+"505
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 505:     if(sensor!=((void*)0))
+[e $ ! != _sensor -> -> -> 0 `i `*v `*S355 434  ]
+"506
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 506:         return (_Bool)sensor->enabled;
+[e ) -> . *U _sensor 5 `a ]
+[e $UE 433  ]
+[e $U 435  ]
+"507
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 507:     else
+[e :U 434 ]
+"508
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 508:         return 0;
+[e ) -> -> 0 `i `a ]
+[e $UE 433  ]
+[e :U 435 ]
+"509
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 509: }
+[e :UE 433 ]
+}
+[v F2768 `(v ~T0 @X0 1 tf1`*S355 ]
+"518
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 518: static __attribute__((inline)) void Sensor_setActive(mtouch_sensor_t* sensor)
+[v _Sensor_setActive `TF2768 ~T0 @X0 1 s ]
+"519
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 519: {
+{
+[e :U _Sensor_setActive ]
+"518
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 518: static __attribute__((inline)) void Sensor_setActive(mtouch_sensor_t* sensor)
+[v _sensor `*S355 ~T0 @X0 1 r1 ]
+"519
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 519: {
+[f ]
+"520
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 520:     sensor->active = 1;
+[e = . *U _sensor 7 -> -> 1 `i `uc ]
+"521
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 521: }
+[e :UE 436 ]
+}
+[v F2771 `(v ~T0 @X0 1 tf1`*S355 ]
+"523
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 523: static __attribute__((inline)) void Sensor_setInactive(mtouch_sensor_t* sensor)
+[v _Sensor_setInactive `TF2771 ~T0 @X0 1 s ]
+"524
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 524: {
+{
+[e :U _Sensor_setInactive ]
+"523
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 523: static __attribute__((inline)) void Sensor_setInactive(mtouch_sensor_t* sensor)
+[v _sensor `*S355 ~T0 @X0 1 r1 ]
+"524
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 524: {
+[f ]
+"525
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 525:     sensor->active = 0;
+[e = . *U _sensor 7 -> -> 0 `i `uc ]
+"526
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 526: }
+[e :UE 437 ]
+}
+"529
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 529: _Bool MTOUCH_Sensor_isActive(enum mtouch_sensor_names sensor)
+[v _MTOUCH_Sensor_isActive `(a ~T0 @X0 1 ef1`E2470 ]
+"530
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 530: {
+{
+[e :U _MTOUCH_Sensor_isActive ]
+"529
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 529: _Bool MTOUCH_Sensor_isActive(enum mtouch_sensor_names sensor)
+[v _sensor `E2470 ~T0 @X0 1 r1 ]
+"530
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 530: {
+[f ]
+"531
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 531:     if(sensor <= 10u)
+[e $ ! <= -> _sensor `ui -> 10 `ui 439  ]
+"532
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 532:         return (_Bool)mtouch_sensor[sensor].active;
+[e ) -> . *U + &U _mtouch_sensor * -> _sensor `ux -> -> # *U &U _mtouch_sensor `ui `ux 7 `a ]
+[e $UE 438  ]
+[e :U 439 ]
+"533
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 533:     return 0;
+[e ) -> -> 0 `i `a ]
+[e $UE 438  ]
+"534
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 534: }
+[e :UE 438 ]
+}
+"537
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 537: _Bool MTOUCH_Sensor_isCalibrated(enum mtouch_sensor_names sensor)
+[v _MTOUCH_Sensor_isCalibrated `(a ~T0 @X0 1 ef1`E2470 ]
+"538
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 538: {
+{
+[e :U _MTOUCH_Sensor_isCalibrated ]
+"537
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 537: _Bool MTOUCH_Sensor_isCalibrated(enum mtouch_sensor_names sensor)
+[v _sensor `E2470 ~T0 @X0 1 r1 ]
+"538
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 538: {
+[f ]
+"540
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 540:     return 1;
+[e ) -> -> 1 `i `a ]
+[e $UE 440  ]
+"541
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 541: }
+[e :UE 440 ]
+}
+"543
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 543: void MTOUCH_Sensor_Calibrate(enum mtouch_sensor_names sensor)
+[v _MTOUCH_Sensor_Calibrate `(v ~T0 @X0 1 ef1`E2470 ]
+"544
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 544: {
+{
+[e :U _MTOUCH_Sensor_Calibrate ]
+"543
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 543: void MTOUCH_Sensor_Calibrate(enum mtouch_sensor_names sensor)
+[v _sensor `E2470 ~T0 @X0 1 r1 ]
+"544
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 544: {
+[f ]
+"546
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 546: }
+[e :UE 441 ]
+}
+"555
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 555: void MTOUCH_Sensor_Sampled_ResetAll(void)
+[v _MTOUCH_Sensor_Sampled_ResetAll `(v ~T0 @X0 1 ef ]
+"556
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 556: {
+{
+[e :U _MTOUCH_Sensor_Sampled_ResetAll ]
+[f ]
+"557
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 557:     mtouch_sensor_t* sensor;
+[v _sensor `*S355 ~T0 @X0 1 a ]
+"558
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 558:     for(sensor = &mtouch_sensor[0];sensor<= &mtouch_sensor[10u -1];sensor++)
+{
+[e = _sensor &U *U + &U _mtouch_sensor * -> -> -> 0 `i `ui `ux -> -> # *U &U _mtouch_sensor `ui `ux ]
+[e $ <= _sensor &U *U + &U _mtouch_sensor * -> - -> 10 `ui -> -> 1 `i `ui `ux -> -> # *U &U _mtouch_sensor `ui `ux 443  ]
+[e $U 444  ]
+[e :U 443 ]
+"559
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 559:     {
+{
+"560
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 560:         Sensor_Sampled_Reset(sensor);
+[e ( _Sensor_Sampled_Reset (1 _sensor ]
+"561
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 561:     }
+}
+[e ++ _sensor * -> -> 1 `i `x -> -> # *U _sensor `i `x ]
+[e $ <= _sensor &U *U + &U _mtouch_sensor * -> - -> 10 `ui -> -> 1 `i `ui `ux -> -> # *U &U _mtouch_sensor `ui `ux 443  ]
+[e :U 444 ]
+}
+"562
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 562: }
+[e :UE 442 ]
+}
+"564
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 564: _Bool MTOUCH_Sensor_wasSampled(enum mtouch_sensor_names sensor)
+[v _MTOUCH_Sensor_wasSampled `(a ~T0 @X0 1 ef1`E2470 ]
+"565
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 565: {
+{
+[e :U _MTOUCH_Sensor_wasSampled ]
+"564
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 564: _Bool MTOUCH_Sensor_wasSampled(enum mtouch_sensor_names sensor)
+[v _sensor `E2470 ~T0 @X0 1 r1 ]
+"565
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 565: {
+[f ]
+"566
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 566:     if(sensor < 10u)
+[e $ ! < -> _sensor `ui -> 10 `ui 447  ]
+"567
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 567:         return (_Bool)mtouch_sensor[sensor].sampled;
+[e ) -> . *U + &U _mtouch_sensor * -> _sensor `ux -> -> # *U &U _mtouch_sensor `ui `ux 6 `a ]
+[e $UE 446  ]
+[e $U 448  ]
+"568
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 568:     else
+[e :U 447 ]
+"569
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 569:         return 0;
+[e ) -> -> 0 `i `a ]
+[e $UE 446  ]
+[e :U 448 ]
+"570
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 570: }
+[e :UE 446 ]
+}
+[v F2784 `(v ~T0 @X0 1 tf1`*S355 ]
+"572
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 572: static __attribute__((inline)) void Sensor_Sampled_Reset(mtouch_sensor_t* sensor)
+[v _Sensor_Sampled_Reset `TF2784 ~T0 @X0 1 s ]
+"573
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 573: {
+{
+[e :U _Sensor_Sampled_Reset ]
+"572
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 572: static __attribute__((inline)) void Sensor_Sampled_Reset(mtouch_sensor_t* sensor)
+[v _sensor `*S355 ~T0 @X0 1 r1 ]
+"573
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 573: {
+[f ]
+"574
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 574:     sensor->sampled = 0;
+[e = . *U _sensor 6 -> -> 0 `i `uc ]
+"575
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 575: }
+[e :UE 449 ]
+}
+[v F2787 `(v ~T0 @X0 1 tf1`*S355 ]
+"577
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 577: static __attribute__((inline)) void Sensor_setSampled(mtouch_sensor_t* sensor)
+[v _Sensor_setSampled `TF2787 ~T0 @X0 1 s ]
+"578
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 578: {
+{
+[e :U _Sensor_setSampled ]
+"577
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 577: static __attribute__((inline)) void Sensor_setSampled(mtouch_sensor_t* sensor)
+[v _sensor `*S355 ~T0 @X0 1 r1 ]
+"578
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 578: {
+[f ]
+"579
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 579:     sensor->sampled = 1;
+[e = . *U _sensor 6 -> -> 1 `i `uc ]
+"580
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 580: }
+[e :UE 450 ]
+}
+"582
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 582: uint8_t MTOUCH_Sensor_Oversampling_Get(enum mtouch_sensor_names name)
+[v _MTOUCH_Sensor_Oversampling_Get `(uc ~T0 @X0 1 ef1`E2470 ]
+"583
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 583: {
+{
+[e :U _MTOUCH_Sensor_Oversampling_Get ]
+"582
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 582: uint8_t MTOUCH_Sensor_Oversampling_Get(enum mtouch_sensor_names name)
+[v _name `E2470 ~T0 @X0 1 r1 ]
+"583
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 583: {
+[f ]
+"584
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 584:     if(name < 10u)
+[e $ ! < -> _name `ui -> 10 `ui 452  ]
+"585
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 585:        return (uint8_t)(mtouch_sensor[name].oversampling);
+[e ) . *U + &U _mtouch_sensor * -> _name `ux -> -> # *U &U _mtouch_sensor `ui `ux 3 ]
+[e $UE 451  ]
+[e $U 453  ]
+"586
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 586:     else
+[e :U 452 ]
+"587
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 587:        return 0;
+[e ) -> -> 0 `i `uc ]
+[e $UE 451  ]
+[e :U 453 ]
+"588
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 588: }
+[e :UE 451 ]
+}
+"590
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 590: void MTOUCH_Sensor_Oversampling_Set(enum mtouch_sensor_names name, uint8_t value )
+[v _MTOUCH_Sensor_Oversampling_Set `(v ~T0 @X0 1 ef2`E2470`uc ]
+"591
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 591: {
+{
+[e :U _MTOUCH_Sensor_Oversampling_Set ]
+"590
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 590: void MTOUCH_Sensor_Oversampling_Set(enum mtouch_sensor_names name, uint8_t value )
+[v _name `E2470 ~T0 @X0 1 r1 ]
+[v _value `uc ~T0 @X0 1 r2 ]
+"591
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 591: {
+[f ]
+"592
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 592:     if(name < 10u)
+[e $ ! < -> _name `ui -> 10 `ui 455  ]
+"593
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 593:     {
+{
+"594
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 594:        mtouch_sensor[name].oversampling = (mtouch_sensor_packetcounter_t)(value);
+[e = . *U + &U _mtouch_sensor * -> _name `ux -> -> # *U &U _mtouch_sensor `ui `ux 3 _value ]
+"595
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 595:     }
+}
+[e :U 455 ]
+"596
+[; ;mcc_generated_files/mtouch/mtouch_sensor.c: 596: }
+[e :UE 454 ]
+}
