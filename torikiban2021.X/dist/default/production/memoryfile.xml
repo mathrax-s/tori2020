@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/production/torikiban2021.X.production.hex">
+    <memory name="program">
+      <units>words</units>
+      <length>4096</length>
+      <used>3414</used>
+      <free>682</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>384</length>
+      <used>336</used>
+      <free>48</free>
+    </memory>
+  </executable>
+</project>
