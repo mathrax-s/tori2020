@@ -427,8 +427,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 "4820
 [; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8/pic/include/proc/pic12f1840.h: 4820: __asm("TOSH equ 0FEFh");
 [; <" TOSH equ 0FEFh ;# ">
-"72 mcc_generated_files/../wavetable.h
-[; ;mcc_generated_files/../wavetable.h: 72:     volatile const unsigned char waveTable[] = {
+"75 mcc_generated_files/../wavetable.h
+[; ;mcc_generated_files/../wavetable.h: 75:     volatile const unsigned char waveTable[] = {
 [v _waveTable `CVuc ~T0 @X0 -> 256 `i e ]
 [i _waveTable
 :U ..
@@ -690,8 +690,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 126 `i `uc
 ..
 ]
-"98
-[; ;mcc_generated_files/../wavetable.h: 98:     volatile const unsigned char envelopeTable[] = {
+"99
+[; ;mcc_generated_files/../wavetable.h: 99:     volatile const unsigned char envelopeTable[] = {
 [v _envelopeTable `CVuc ~T0 @X0 -> 256 `i e ]
 [i _envelopeTable
 :U ..

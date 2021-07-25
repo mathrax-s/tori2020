@@ -13,13 +13,13 @@
 [v ___eecpymem __eecpymem `(v  1 e 1 0 ]
 "39
 [v ___memcpyee __memcpyee `(v  1 e 1 0 ]
-"257 /Users/mathrax/MPLABXProjects/simpletone2021.X/main.c
+"96 /Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/main.c
 [v _soundPlay soundPlay `(v  1 e 1 0 ]
-"272
+"111
 [v _main main `(v  1 e 1 0 ]
-"64 /Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/epwm.c
+"64 /Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/epwm.c
 [v _EPWM_Initialize EPWM_Initialize `(v  1 e 1 0 ]
-"83 /Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
+"83 /Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
 [v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
 "126
 [v _EUSART_is_rx_ready EUSART_is_rx_ready `(a  1 e 1 0 ]
@@ -43,17 +43,17 @@
 [v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
 "234
 [v _EUSART_SetRxInterruptHandler EUSART_SetRxInterruptHandler `(v  1 e 1 0 ]
-"52 /Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/interrupt_manager.c
+"52 /Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
-"50 /Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/mcc.c
+"50 /Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 "62
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 "76
 [v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
-"55 /Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/pin_manager.c
+"55 /Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
-"65 /Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
+"65 /Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
 [v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
 "109
 [v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
@@ -61,11 +61,11 @@
 [v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
 "130
 [v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
-"62 /Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr2.c
+"62 /Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr2.c
 [v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
-"72 /Users/mathrax/MPLABXProjects/simpletone2021.X/wavetable.h
+"75 /Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/wavetable.h
 [v _waveTable waveTable `DVEC[256]uc  1 e 256 0 ]
-"98
+"99
 [v _envelopeTable envelopeTable `DVEC[256]uc  1 e 256 0 ]
 [s S325 . 1 `uc 1 IOCIF 1 0 :1:0 
 `uc 1 INTF 1 0 :1:1 
@@ -220,41 +220,41 @@
 [v _PSTR1CON PSTR1CON `VEuc  1 e 1 @662 ]
 "5447
 [v _PLLR PLLR `VEb  1 e 0 @1238 ]
-"49 /Users/mathrax/MPLABXProjects/simpletone2021.X/main.c
+"49 /Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/main.c
 [v _onkai_d onkai_d `DC[84]uc  1 e 84 0 ]
-"138
+"59
 [v _onkai_f onkai_f `DC[85]uc  1 e 85 0 ]
-"227
+"70
 [v _waveData waveData `ui  1 e 2 0 ]
-"228
+"71
 [v _voice_on voice_on `uc  1 e 1 0 ]
-"229
+"72
 [v _synth_waveData synth_waveData `uc  1 e 1 0 ]
-"230
+"73
 [v _env env `uc  1 e 1 0 ]
-"231
+"74
 [v _envelopeCount envelopeCount `ui  1 e 2 0 ]
-"232
+"75
 [v _envelopeValue envelopeValue `uc  1 e 1 0 ]
-"234
+"77
 [v _dat_d dat_d `uc  1 e 1 0 ]
-"235
+"78
 [v _dat_f dat_f `uc  1 e 1 0 ]
-"236
+"79
 [v _pos_d pos_d `uc  1 e 1 0 ]
-"237
+"80
 [v _pos_f pos_f `ui  1 e 2 0 ]
-"238
+"81
 [v _pos pos `uc  1 e 1 0 ]
-"241
+"84
 [v _pitch pitch `ui  1 e 2 0 ]
-"242
+"85
 [v _count count `ui  1 e 2 0 ]
-"243
+"86
 [v _ENV_DELAY ENV_DELAY `ui  1 e 2 0 ]
-"246
+"89
 [v _scale scale `[10]uc  1 e 10 0 ]
-"63 /Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
+"63 /Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
 [v _eusartRxHead eusartRxHead `VEuc  1 e 1 0 ]
 "64
 [v _eusartRxTail eusartRxTail `VEuc  1 e 1 0 ]
@@ -280,27 +280,27 @@
 [v _EUSART_OverrunErrorHandler EUSART_OverrunErrorHandler `*.37(v  1 e 2 0 ]
 "77
 [v _EUSART_ErrorHandler EUSART_ErrorHandler `*.37(v  1 e 2 0 ]
-"59 /Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
+"59 /Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
 [v _timer0ReloadVal timer0ReloadVal `VEuc  1 e 1 0 ]
 "60
 [v _TMR0_InterruptHandler TMR0_InterruptHandler `*.37(v  1 e 2 0 ]
-"272 /Users/mathrax/MPLABXProjects/simpletone2021.X/main.c
+"111 /Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"307
+"146
 [v main@data data `uc  1 a 1 10 ]
-"315
+"154
 } 0
-"257
+"96
 [v _soundPlay soundPlay `(v  1 e 1 0 ]
 {
 [v soundPlay@onkai onkai `uc  1 a 1 wreg ]
 [v soundPlay@onkai onkai `uc  1 a 1 wreg ]
-"259
+"98
 [v soundPlay@onkai onkai `uc  1 a 1 8 ]
-"267
+"106
 } 0
-"50 /Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/mcc.c
+"50 /Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
 "60
@@ -310,12 +310,12 @@
 {
 "80
 } 0
-"62 /Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr2.c
+"62 /Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr2.c
 [v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
 {
 "77
 } 0
-"65 /Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
+"65 /Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
 [v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
 {
 "86
@@ -326,17 +326,17 @@
 [v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 7 ]
 "128
 } 0
-"55 /Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/pin_manager.c
+"55 /Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 {
 "89
 } 0
-"62 /Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/mcc.c
+"62 /Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/mcc.c
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 {
 "74
 } 0
-"83 /Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
+"83 /Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
 [v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
 {
 "119
@@ -365,12 +365,12 @@
 [v EUSART_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 7 ]
 "231
 } 0
-"64 /Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/epwm.c
+"64 /Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/epwm.c
 [v _EPWM_Initialize EPWM_Initialize `(v  1 e 1 0 ]
 {
 "86
 } 0
-"126 /Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
+"126 /Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
 [v _EUSART_is_rx_ready EUSART_is_rx_ready `(a  1 e 1 0 ]
 {
 "129
@@ -382,12 +382,12 @@
 [v EUSART_Read@readValue readValue `uc  1 a 1 8 ]
 "160
 } 0
-"52 /Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/interrupt_manager.c
+"52 /Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
 {
 "74
 } 0
-"109 /Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
+"109 /Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
 [v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
 {
 "123
@@ -407,7 +407,7 @@
 [v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
 "53
 } 0
-"173 /Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
+"173 /Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
 [v _EUSART_Receive_ISR EUSART_Receive_ISR `(v  1 e 1 0 ]
 {
 "195

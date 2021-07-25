@@ -3440,10 +3440,8 @@ void EUSART_SetRxInterruptHandler(void (* interruptHandler)(void));
 # 61 "mcc_generated_files/mcc.h" 2
 
 # 1 "mcc_generated_files/../wavetable.h" 1
-# 72 "mcc_generated_files/../wavetable.h"
+# 75 "mcc_generated_files/../wavetable.h"
     volatile const unsigned char waveTable[] = {
-
-
         127, 130, 133, 136, 139, 142, 145, 148, 152, 155, 158, 161, 164, 167, 170, 173,
         176, 179, 181, 184, 187, 190, 193, 195, 198, 200, 203, 206, 208, 210, 213, 215,
         217, 219, 222, 224, 226, 228, 230, 231, 233, 235, 237, 238, 240, 241, 242, 244,
@@ -3485,7 +3483,6 @@ void EUSART_SetRxInterruptHandler(void (* interruptHandler)(void));
         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
-# 126 "mcc_generated_files/../wavetable.h"
     };
 # 62 "mcc_generated_files/mcc.h" 2
 

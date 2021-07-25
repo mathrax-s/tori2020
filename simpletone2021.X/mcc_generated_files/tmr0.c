@@ -175,12 +175,12 @@ void TMR0_DefaultInterruptHandler(void){
 
     }
 
-    //和音の計算
-    //それぞれの音の波形に、エンベロープをつけたものを、足す。
+    //音の計算
+    //音の波形に、エンベロープを掛け算する。
     waveData = synth_waveData * envelopeValue >> 7;
 
-    //PWM 0~31
-    CCPR1L = waveData ; ///NUM_VOICE;
+    //PWM
+    CCPR1L = waveData ;
 
 }
 

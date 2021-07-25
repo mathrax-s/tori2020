@@ -375,8 +375,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 "4820
 [; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8/pic/include/proc/pic12f1840.h: 4820: __asm("TOSH equ 0FEFh");
 [; <" TOSH equ 0FEFh ;# ">
-"72 ./mcc_generated_files/../wavetable.h
-[; ;./mcc_generated_files/../wavetable.h: 72:     volatile const unsigned char waveTable[] = {
+"75 ./mcc_generated_files/../wavetable.h
+[; ;./mcc_generated_files/../wavetable.h: 75:     volatile const unsigned char waveTable[] = {
 [v _waveTable `CVuc ~T0 @X0 -> 256 `i e ]
 [i _waveTable
 :U ..
@@ -638,8 +638,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 126 `i `uc
 ..
 ]
-"98
-[; ;./mcc_generated_files/../wavetable.h: 98:     volatile const unsigned char envelopeTable[] = {
+"99
+[; ;./mcc_generated_files/../wavetable.h: 99:     volatile const unsigned char envelopeTable[] = {
 [v _envelopeTable `CVuc ~T0 @X0 -> 256 `i e ]
 [i _envelopeTable
 :U ..
@@ -992,8 +992,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 71 `i `uc
 ..
 ]
-"138
-[; ;main.c: 138: const unsigned char onkai_f[] = {
+"59
+[; ;main.c: 59: const unsigned char onkai_f[] = {
 [v _onkai_f `Cuc ~T0 @X0 -> 85 `i e ]
 [i _onkai_f
 :U ..
@@ -1084,50 +1084,50 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 84 `i `uc
 ..
 ]
-"227
-[; ;main.c: 227: unsigned int waveData;
+"70
+[; ;main.c: 70: unsigned int waveData;
 [v _waveData `ui ~T0 @X0 1 e ]
-"228
-[; ;main.c: 228: unsigned char voice_on;
+"71
+[; ;main.c: 71: unsigned char voice_on;
 [v _voice_on `uc ~T0 @X0 1 e ]
-"229
-[; ;main.c: 229: unsigned char synth_waveData;
+"72
+[; ;main.c: 72: unsigned char synth_waveData;
 [v _synth_waveData `uc ~T0 @X0 1 e ]
-"230
-[; ;main.c: 230: unsigned char env;
+"73
+[; ;main.c: 73: unsigned char env;
 [v _env `uc ~T0 @X0 1 e ]
-"231
-[; ;main.c: 231: unsigned int envelopeCount;
+"74
+[; ;main.c: 74: unsigned int envelopeCount;
 [v _envelopeCount `ui ~T0 @X0 1 e ]
-"232
-[; ;main.c: 232: unsigned char envelopeValue;
+"75
+[; ;main.c: 75: unsigned char envelopeValue;
 [v _envelopeValue `uc ~T0 @X0 1 e ]
-"234
-[; ;main.c: 234: unsigned char dat_d;
+"77
+[; ;main.c: 77: unsigned char dat_d;
 [v _dat_d `uc ~T0 @X0 1 e ]
-"235
-[; ;main.c: 235: unsigned char dat_f;
+"78
+[; ;main.c: 78: unsigned char dat_f;
 [v _dat_f `uc ~T0 @X0 1 e ]
-"236
-[; ;main.c: 236: unsigned char pos_d;
+"79
+[; ;main.c: 79: unsigned char pos_d;
 [v _pos_d `uc ~T0 @X0 1 e ]
-"237
-[; ;main.c: 237: unsigned int pos_f;
+"80
+[; ;main.c: 80: unsigned int pos_f;
 [v _pos_f `ui ~T0 @X0 1 e ]
-"238
-[; ;main.c: 238: unsigned char pos;
+"81
+[; ;main.c: 81: unsigned char pos;
 [v _pos `uc ~T0 @X0 1 e ]
-"241
-[; ;main.c: 241: unsigned int pitch;
+"84
+[; ;main.c: 84: unsigned int pitch;
 [v _pitch `ui ~T0 @X0 1 e ]
-"242
-[; ;main.c: 242: unsigned int count;
+"85
+[; ;main.c: 85: unsigned int count;
 [v _count `ui ~T0 @X0 1 e ]
-"243
-[; ;main.c: 243: unsigned int ENV_DELAY;
+"86
+[; ;main.c: 86: unsigned int ENV_DELAY;
 [v _ENV_DELAY `ui ~T0 @X0 1 e ]
-"246
-[; ;main.c: 246: char scale[] = {
+"89
+[; ;main.c: 89: char scale[] = {
 [v _scale `uc ~T0 @X0 -> 10 `i e ]
 [i _scale
 :U ..
@@ -1143,106 +1143,106 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 82 `i `uc
 ..
 ]
-"257
-[; ;main.c: 257: void soundPlay(char onkai) {
+"96
+[; ;main.c: 96: void soundPlay(char onkai) {
 [v _soundPlay `(v ~T0 @X0 1 ef1`uc ]
 {
 [e :U _soundPlay ]
 [v _onkai `uc ~T0 @X0 1 r1 ]
 [f ]
-"259
-[; ;main.c: 259:     dat_d = onkai_d[onkai];
+"98
+[; ;main.c: 98:     dat_d = onkai_d[onkai];
 [e = _dat_d *U + &U _onkai_d * -> _onkai `ux -> -> # *U &U _onkai_d `ui `ux ]
-"261
-[; ;main.c: 261:     dat_f = onkai_f[onkai];
+"100
+[; ;main.c: 100:     dat_f = onkai_f[onkai];
 [e = _dat_f *U + &U _onkai_f * -> _onkai `ux -> -> # *U &U _onkai_f `ui `ux ]
-"263
-[; ;main.c: 263:     env = 0;
+"102
+[; ;main.c: 102:     env = 0;
 [e = _env -> -> 0 `i `uc ]
-"264
-[; ;main.c: 264:     envelopeCount = 0;
+"103
+[; ;main.c: 103:     envelopeCount = 0;
 [e = _envelopeCount -> -> 0 `i `ui ]
-"266
-[; ;main.c: 266:     voice_on = 1;
+"105
+[; ;main.c: 105:     voice_on = 1;
 [e = _voice_on -> -> 1 `i `uc ]
-"267
-[; ;main.c: 267: }
+"106
+[; ;main.c: 106: }
 [e :UE 269 ]
 }
 [v $root$_main `(v ~T0 @X0 0 e ]
-"272
-[; ;main.c: 272: void main(void) {
+"111
+[; ;main.c: 111: void main(void) {
 [v _main `(v ~T0 @X0 1 ef ]
 {
 [e :U _main ]
 [f ]
-"274
-[; ;main.c: 274:     SYSTEM_Initialize();
+"113
+[; ;main.c: 113:     SYSTEM_Initialize();
 [e ( _SYSTEM_Initialize ..  ]
-"280
-[; ;main.c: 280:     (INTCONbits.GIE = 1);
+"119
+[; ;main.c: 119:     (INTCONbits.GIE = 1);
 [e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
-"283
-[; ;main.c: 283:     (INTCONbits.PEIE = 1);
+"122
+[; ;main.c: 122:     (INTCONbits.PEIE = 1);
 [e = . . _INTCONbits 0 6 -> -> 1 `i `uc ]
-"292
-[; ;main.c: 292:     pitch = 0;
+"131
+[; ;main.c: 131:     pitch = 0;
 [e = _pitch -> -> 0 `i `ui ]
-"293
-[; ;main.c: 293:     count = 0;
+"132
+[; ;main.c: 132:     count = 0;
 [e = _count -> -> 0 `i `ui ]
-"296
-[; ;main.c: 296:     voice_on = 0;
+"135
+[; ;main.c: 135:     voice_on = 0;
 [e = _voice_on -> -> 0 `i `uc ]
-"297
-[; ;main.c: 297:     env = 0;
+"136
+[; ;main.c: 136:     env = 0;
 [e = _env -> -> 0 `i `uc ]
-"298
-[; ;main.c: 298:     envelopeCount = 0;
+"137
+[; ;main.c: 137:     envelopeCount = 0;
 [e = _envelopeCount -> -> 0 `i `ui ]
-"299
-[; ;main.c: 299:     pos_d = 0;
+"138
+[; ;main.c: 138:     pos_d = 0;
 [e = _pos_d -> -> 0 `i `uc ]
-"300
-[; ;main.c: 300:     pos_f = 0;
+"139
+[; ;main.c: 139:     pos_f = 0;
 [e = _pos_f -> -> 0 `i `ui ]
-"302
-[; ;main.c: 302:     ENV_DELAY = 300;
+"141
+[; ;main.c: 141:     ENV_DELAY = 300;
 [e = _ENV_DELAY -> -> 300 `i `ui ]
-"304
-[; ;main.c: 304:     while (1) {
+"143
+[; ;main.c: 143:     while (1) {
 [e :U 272 ]
 {
-"306
-[; ;main.c: 306:         if (EUSART_is_rx_ready()) {
+"145
+[; ;main.c: 145:         if (EUSART_is_rx_ready()) {
 [e $ ! != -> ( _EUSART_is_rx_ready ..  `i -> 0 `i 274  ]
 {
-"307
-[; ;main.c: 307:             uint8_t data = EUSART_Read();
+"146
+[; ;main.c: 146:             uint8_t data = EUSART_Read();
 [v _data `uc ~T0 @X0 1 a ]
 [e = _data ( _EUSART_Read ..  ]
-"309
-[; ;main.c: 309:             if (data >= 'a' && data < ('a' + (int) sizeof (scale))) {
+"148
+[; ;main.c: 148:             if (data >= 'a' && data < ('a' + (int) sizeof (scale))) {
 [e $ ! && >= -> _data `ui -> 97 `ui < -> _data `ui + -> 97 `ui -> -> -> # _scale `ui `i `ui 275  ]
 {
-"310
-[; ;main.c: 310:                 soundPlay(scale[data - 'a']);
+"149
+[; ;main.c: 149:                 soundPlay(scale[data - 'a']);
 [e ( _soundPlay (1 *U + &U _scale * -> - -> _data `ui -> 97 `ui `ux -> -> # *U &U _scale `ui `ux ]
-"311
-[; ;main.c: 311:             }
+"150
+[; ;main.c: 150:             }
 }
 [e :U 275 ]
-"312
-[; ;main.c: 312:         }
+"151
+[; ;main.c: 151:         }
 }
 [e :U 274 ]
-"314
-[; ;main.c: 314:     }
+"153
+[; ;main.c: 153:     }
 }
 [e :U 271 ]
 [e $U 272  ]
 [e :U 273 ]
-"315
-[; ;main.c: 315: }
+"154
+[; ;main.c: 154: }
 [e :UE 270 ]
 }

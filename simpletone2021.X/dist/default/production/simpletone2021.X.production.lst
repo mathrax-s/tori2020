@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V2.20 build 20200408173844 
-                                                                                               Sun Jul 11 16:00:03 2021
+                                                                                               Sun Jul 25 17:37:34 2021
 
 Microchip MPLAB XC8 C Compiler v2.20 (Free license) build 20200408173844 Og1 
      1                           	processor	12F1840
@@ -2234,7 +2234,7 @@ Microchip MPLAB XC8 C Compiler v2.20 (Free license) build 20200408173844 Og1
   2220 ;;
   2221 ;; *************** function _main *****************
   2222 ;; Defined at:
-  2223 ;;		line 272 in file "main.c"
+  2223 ;;		line 111 in file "main.c"
   2224 ;; Parameters:    Size  Location     Type
   2225 ;;		None
   2226 ;; Auto vars:     Size  Location     Type
@@ -2268,65 +2268,65 @@ Microchip MPLAB XC8 C Compiler v2.20 (Free license) build 20200408173844 Og1
   2254                           ;psect for function _main
   2255  034C                     _main:
   2256                           
-  2257                           ;main.c: 274:     SYSTEM_Initialize();
+  2257                           ;main.c: 113:     SYSTEM_Initialize();
   2258                           
   2259                           ;incstack = 0
   2260                           ; Regs used in _main: [wreg-fsr1h+status,2+status,0+pclath+cstack]
   2261  034C  3184  2457  3183   	fcall	_SYSTEM_Initialize
   2262                           
-  2263                           ;main.c: 280:     (INTCONbits.GIE = 1);
+  2263                           ;main.c: 119:     (INTCONbits.GIE = 1);
   2264  034F  178B               	bsf	11,7	;volatile
   2265                           
-  2266                           ;main.c: 283:     (INTCONbits.PEIE = 1);
+  2266                           ;main.c: 122:     (INTCONbits.PEIE = 1);
   2267  0350  170B               	bsf	11,6	;volatile
   2268                           
-  2269                           ;main.c: 292:     pitch = 0;
+  2269                           ;main.c: 131:     pitch = 0;
   2270  0351  0020               	movlb	0	; select bank0
   2271  0352  01B2               	clrf	_pitch
   2272  0353  01B3               	clrf	_pitch+1
   2273                           
-  2274                           ;main.c: 293:     count = 0;
+  2274                           ;main.c: 132:     count = 0;
   2275  0354  01B0               	clrf	_count
   2276  0355  01B1               	clrf	_count+1
   2277                           
-  2278                           ;main.c: 296:     voice_on = 0;
+  2278                           ;main.c: 135:     voice_on = 0;
   2279  0356  01F4               	clrf	_voice_on
   2280                           
-  2281                           ;main.c: 297:     env = 0;
+  2281                           ;main.c: 136:     env = 0;
   2282  0357  01F1               	clrf	_env
   2283                           
-  2284                           ;main.c: 298:     envelopeCount = 0;
+  2284                           ;main.c: 137:     envelopeCount = 0;
   2285  0358  01BA               	clrf	_envelopeCount
   2286  0359  01BB               	clrf	_envelopeCount+1
   2287                           
-  2288                           ;main.c: 299:     pos_d = 0;
+  2288                           ;main.c: 138:     pos_d = 0;
   2289  035A  01C8               	clrf	_pos_d
   2290                           
-  2291                           ;main.c: 300:     pos_f = 0;
+  2291                           ;main.c: 139:     pos_f = 0;
   2292  035B  01B6               	clrf	_pos_f
   2293  035C  01B7               	clrf	_pos_f+1
   2294                           
-  2295                           ;main.c: 302:     ENV_DELAY = 300;
+  2295                           ;main.c: 141:     ENV_DELAY = 300;
   2296  035D  302C               	movlw	44
   2297  035E  00B8               	movwf	_ENV_DELAY
   2298  035F  3001               	movlw	1
   2299  0360  00B9               	movwf	_ENV_DELAY+1
   2300  0361                     l1674:
   2301                           
-  2302                           ;main.c: 306:         if (EUSART_is_rx_ready()) {
+  2302                           ;main.c: 145:         if (EUSART_is_rx_ready()) {
   2303  0361  3184  24C3  3183   	fcall	_EUSART_is_rx_ready
   2304  0364  3A00               	xorlw	0
   2305  0365  1903               	skipnz
   2306  0366  2B61               	goto	l1674
   2307                           
-  2308                           ;main.c: 307:             uint8_t data = EUSART_Read();
+  2308                           ;main.c: 146:             uint8_t data = EUSART_Read();
   2309  0367  3183  23E4  3183   	fcall	_EUSART_Read
   2310  036A  0020               	movlb	0	; select bank0
   2311  036B  00D4               	movwf	??_main
   2312  036C  0854               	movf	??_main,w
   2313  036D  00D5               	movwf	main@data
   2314                           
-  2315                           ;main.c: 309:             if (data >= 'a' && data < ('a' + (int) sizeof (scale))) {
+  2315                           ;main.c: 148:             if (data >= 'a' && data < ('a' + (int) sizeof (scale))) {
   2316  036E  3061               	movlw	97
   2317  036F  0255               	subwf	main@data,w
   2318  0370  1C03               	skipc
@@ -2336,7 +2336,7 @@ Microchip MPLAB XC8 C Compiler v2.20 (Free license) build 20200408173844 Og1
   2322  0374  1803               	skipnc
   2323  0375  2B61               	goto	l1674
   2324                           
-  2325                           ;main.c: 310:                 soundPlay(scale[data - 'a']);
+  2325                           ;main.c: 149:                 soundPlay(scale[data - 'a']);
   2326  0376  0855               	movf	main@data,w
   2327  0377  3EF5               	addlw	(low ((_scale| 0+159)))& (0+255)
   2328  0378  0086               	movwf	6
@@ -2350,7 +2350,7 @@ Microchip MPLAB XC8 C Compiler v2.20 (Free license) build 20200408173844 Og1
   2336  0408                     __ptext1:	
   2337 ;; *************** function _soundPlay *****************
   2338 ;; Defined at:
-  2339 ;;		line 257 in file "main.c"
+  2339 ;;		line 96 in file "main.c"
   2340 ;; Parameters:    Size  Location     Type
   2341 ;;  onkai           1    wreg     unsigned char 
   2342 ;; Auto vars:     Size  Location     Type
@@ -2388,7 +2388,7 @@ Microchip MPLAB XC8 C Compiler v2.20 (Free license) build 20200408173844 Og1
   2374  0408  0020               	movlb	0	; select bank0
   2375  0409  00D3               	movwf	soundPlay@onkai
   2376                           
-  2377                           ;main.c: 259:     dat_d = onkai_d[onkai];
+  2377                           ;main.c: 98:     dat_d = onkai_d[onkai];
   2378  040A  0853               	movf	soundPlay@onkai,w
   2379  040B  3EF8               	addlw	low (_onkai_d| (0+32768))
   2380  040C  0084               	movwf	4
@@ -2401,7 +2401,7 @@ Microchip MPLAB XC8 C Compiler v2.20 (Free license) build 20200408173844 Og1
   2387  0413  0852               	movf	??_soundPlay,w
   2388  0414  00C7               	movwf	_dat_d
   2389                           
-  2390                           ;main.c: 261:     dat_f = onkai_f[onkai];
+  2390                           ;main.c: 100:     dat_f = onkai_f[onkai];
   2391  0415  0853               	movf	soundPlay@onkai,w
   2392  0416  3EA3               	addlw	low (_onkai_f| (0+32768))
   2393  0417  0084               	movwf	4
@@ -2414,14 +2414,14 @@ Microchip MPLAB XC8 C Compiler v2.20 (Free license) build 20200408173844 Og1
   2400  041E  0852               	movf	??_soundPlay,w
   2401  041F  00C6               	movwf	_dat_f
   2402                           
-  2403                           ;main.c: 263:     env = 0;
+  2403                           ;main.c: 102:     env = 0;
   2404  0420  01F1               	clrf	_env
   2405                           
-  2406                           ;main.c: 264:     envelopeCount = 0;
+  2406                           ;main.c: 103:     envelopeCount = 0;
   2407  0421  01BA               	clrf	_envelopeCount
   2408  0422  01BB               	clrf	_envelopeCount+1
   2409                           
-  2410                           ;main.c: 266:     voice_on = 1;
+  2410                           ;main.c: 105:     voice_on = 1;
   2411  0423  01F4               	clrf	_voice_on
   2412  0424  0AF4               	incf	_voice_on,f
   2413  0425  0008               	return
@@ -4450,7 +4450,7 @@ SFR31                0      0       0      32        0.0%
 
 
 Microchip Technology PIC Macro Assembler V2.20 build 20200408173844 
-Symbol Table                                                                                   Sun Jul 11 16:00:03 2021
+Symbol Table                                                                                   Sun Jul 25 17:37:34 2021
 
                 ?_EUSART_SetRxInterruptHandler 0052                            ___wmul@multiplicand 007A  
                               _timer0ReloadVal 0070                                            l231 04B7  

@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$/tmp/xcAmsvRSG.o
+$/tmp/xc6MNBMWC.o
 reset_vec CODE 0 0 0 2 2
 end_init CODE 0 1C 1C 2 2
 config CONFIG 4 8007 8007 2 2
@@ -128,69 +128,69 @@ STRING 500-FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production/simpletone2021.X.production.o
-1E cinit CODE >3089:/tmp/xcAXLbF0I.s
-1E cinit CODE >3092:/tmp/xcAXLbF0I.s
-1E cinit CODE >3200:/tmp/xcAXLbF0I.s
-1F cinit CODE >3201:/tmp/xcAXLbF0I.s
-20 cinit CODE >3202:/tmp/xcAXLbF0I.s
-21 cinit CODE >3203:/tmp/xcAXLbF0I.s
-22 cinit CODE >3204:/tmp/xcAXLbF0I.s
-23 cinit CODE >3205:/tmp/xcAXLbF0I.s
-24 cinit CODE >3206:/tmp/xcAXLbF0I.s
-25 cinit CODE >3207:/tmp/xcAXLbF0I.s
-26 cinit CODE >3208:/tmp/xcAXLbF0I.s
-27 cinit CODE >3209:/tmp/xcAXLbF0I.s
-2A cinit CODE >3226:/tmp/xcAXLbF0I.s
-2B cinit CODE >3227:/tmp/xcAXLbF0I.s
-2C cinit CODE >3228:/tmp/xcAXLbF0I.s
-2D cinit CODE >3229:/tmp/xcAXLbF0I.s
-2E cinit CODE >3230:/tmp/xcAXLbF0I.s
-2F cinit CODE >3231:/tmp/xcAXLbF0I.s
-32 cinit CODE >3235:/tmp/xcAXLbF0I.s
-33 cinit CODE >3236:/tmp/xcAXLbF0I.s
-34 cinit CODE >3237:/tmp/xcAXLbF0I.s
-35 cinit CODE >3238:/tmp/xcAXLbF0I.s
-36 cinit CODE >3239:/tmp/xcAXLbF0I.s
-37 cinit CODE >3240:/tmp/xcAXLbF0I.s
-39 cinit CODE >3246:/tmp/xcAXLbF0I.s
-39 cinit CODE >3248:/tmp/xcAXLbF0I.s
-3A cinit CODE >3249:/tmp/xcAXLbF0I.s
-3B cinit CODE >3250:/tmp/xcAXLbF0I.s
-4 intentry CODE >52:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/interrupt_manager.c
-6 intentry CODE >55:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/interrupt_manager.c
-9 intentry CODE >57:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/interrupt_manager.c
-C intentry CODE >58:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/interrupt_manager.c
-D intentry CODE >59:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/interrupt_manager.c
-F intentry CODE >61:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/interrupt_manager.c
-15 intentry CODE >63:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/interrupt_manager.c
-1A intentry CODE >74:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/interrupt_manager.c
-441 text25 CODE >197:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-441 text25 CODE >199:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-44E text25 CODE >200:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-451 text25 CODE >202:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-452 text25 CODE >204:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-456 text25 CODE >205:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-4FC text24 CODE >217:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-4FC text24 CODE >218:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-4FE text24 CODE >219:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-4FF text23 CODE >207:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-4F8 text22 CODE >209:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-4F8 text22 CODE >212:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-4FA text22 CODE >213:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-4FB text22 CODE >215:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-3B2 text21 CODE >173:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-3B2 text21 CODE >176:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-3B7 text21 CODE >178:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-3BA text21 CODE >179:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-3BF text21 CODE >180:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-3C5 text21 CODE >183:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-3C8 text21 CODE >184:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-3CD text21 CODE >185:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-3D3 text21 CODE >188:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-3DA text21 CODE >189:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-3E0 text21 CODE >190:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-3E1 text21 CODE >191:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-3E3 text21 CODE >195:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
+1E cinit CODE >3089:/tmp/xcIXFhaon.s
+1E cinit CODE >3092:/tmp/xcIXFhaon.s
+1E cinit CODE >3200:/tmp/xcIXFhaon.s
+1F cinit CODE >3201:/tmp/xcIXFhaon.s
+20 cinit CODE >3202:/tmp/xcIXFhaon.s
+21 cinit CODE >3203:/tmp/xcIXFhaon.s
+22 cinit CODE >3204:/tmp/xcIXFhaon.s
+23 cinit CODE >3205:/tmp/xcIXFhaon.s
+24 cinit CODE >3206:/tmp/xcIXFhaon.s
+25 cinit CODE >3207:/tmp/xcIXFhaon.s
+26 cinit CODE >3208:/tmp/xcIXFhaon.s
+27 cinit CODE >3209:/tmp/xcIXFhaon.s
+2A cinit CODE >3226:/tmp/xcIXFhaon.s
+2B cinit CODE >3227:/tmp/xcIXFhaon.s
+2C cinit CODE >3228:/tmp/xcIXFhaon.s
+2D cinit CODE >3229:/tmp/xcIXFhaon.s
+2E cinit CODE >3230:/tmp/xcIXFhaon.s
+2F cinit CODE >3231:/tmp/xcIXFhaon.s
+32 cinit CODE >3235:/tmp/xcIXFhaon.s
+33 cinit CODE >3236:/tmp/xcIXFhaon.s
+34 cinit CODE >3237:/tmp/xcIXFhaon.s
+35 cinit CODE >3238:/tmp/xcIXFhaon.s
+36 cinit CODE >3239:/tmp/xcIXFhaon.s
+37 cinit CODE >3240:/tmp/xcIXFhaon.s
+39 cinit CODE >3246:/tmp/xcIXFhaon.s
+39 cinit CODE >3248:/tmp/xcIXFhaon.s
+3A cinit CODE >3249:/tmp/xcIXFhaon.s
+3B cinit CODE >3250:/tmp/xcIXFhaon.s
+4 intentry CODE >52:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/interrupt_manager.c
+6 intentry CODE >55:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/interrupt_manager.c
+9 intentry CODE >57:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/interrupt_manager.c
+C intentry CODE >58:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/interrupt_manager.c
+D intentry CODE >59:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/interrupt_manager.c
+F intentry CODE >61:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/interrupt_manager.c
+15 intentry CODE >63:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/interrupt_manager.c
+1A intentry CODE >74:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/interrupt_manager.c
+441 text25 CODE >197:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+441 text25 CODE >199:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+44E text25 CODE >200:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+451 text25 CODE >202:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+452 text25 CODE >204:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+456 text25 CODE >205:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+4FC text24 CODE >217:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+4FC text24 CODE >218:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+4FE text24 CODE >219:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+4FF text23 CODE >207:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+4F8 text22 CODE >209:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+4F8 text22 CODE >212:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+4FA text22 CODE >213:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+4FB text22 CODE >215:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+3B2 text21 CODE >173:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+3B2 text21 CODE >176:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+3B7 text21 CODE >178:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+3BA text21 CODE >179:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+3BF text21 CODE >180:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+3C5 text21 CODE >183:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+3C8 text21 CODE >184:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+3CD text21 CODE >185:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+3D3 text21 CODE >188:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+3DA text21 CODE >189:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+3E0 text21 CODE >190:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+3E1 text21 CODE >191:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+3E3 text21 CODE >195:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
 426 text20 CODE >15:/Applications/microchip/xc8/v2.20/pic/sources/c99/common/Umul16.c
 426 text20 CODE >43:/Applications/microchip/xc8/v2.20/pic/sources/c99/common/Umul16.c
 428 text20 CODE >45:/Applications/microchip/xc8/v2.20/pic/sources/c99/common/Umul16.c
@@ -200,161 +200,161 @@ F intentry CODE >61:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated
 438 text20 CODE >49:/Applications/microchip/xc8/v2.20/pic/sources/c99/common/Umul16.c
 43C text20 CODE >52:/Applications/microchip/xc8/v2.20/pic/sources/c99/common/Umul16.c
 440 text20 CODE >53:/Applications/microchip/xc8/v2.20/pic/sources/c99/common/Umul16.c
-23D text19 CODE >130:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-23D text19 CODE >135:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-240 text19 CODE >138:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-243 text19 CODE >141:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-24E text19 CODE >145:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-252 text19 CODE >148:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-261 text19 CODE >151:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-265 text19 CODE >154:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-268 text19 CODE >156:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-26A text19 CODE >162:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-26E text19 CODE >168:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-272 text19 CODE >170:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-279 text19 CODE >174:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-27E text19 CODE >180:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-29F text19 CODE >183:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-2A2 text19 CODE >185:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-48D text18 CODE >109:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-48D text18 CODE >113:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-48E text18 CODE >115:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-491 text18 CODE >117:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-495 text18 CODE >119:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-49A text18 CODE >123:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-3E4 text16 CODE >140:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-3E4 text16 CODE >144:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-3E7 text16 CODE >148:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-3F0 text16 CODE >150:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-3FC text16 CODE >151:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-3FF text16 CODE >153:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-400 text16 CODE >155:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-402 text16 CODE >156:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-404 text16 CODE >157:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-405 text16 CODE >159:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-407 text16 CODE >160:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-4C3 text15 CODE >126:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-4C3 text15 CODE >128:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-4C9 text15 CODE >129:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-49B text14 CODE >64:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/epwm.c
-49B text14 CODE >69:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/epwm.c
-49E text14 CODE >72:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/epwm.c
-49F text14 CODE >75:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/epwm.c
-4A1 text14 CODE >78:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/epwm.c
-4A3 text14 CODE >81:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/epwm.c
-4A4 text14 CODE >84:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/epwm.c
-4A6 text14 CODE >86:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/epwm.c
-4EE text13 CODE >229:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-4EE text13 CODE >230:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-4F3 text13 CODE >231:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-4E8 text12 CODE >221:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-4E8 text12 CODE >222:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-4ED text12 CODE >223:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-4E2 text11 CODE >225:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-4E2 text11 CODE >226:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-4E7 text11 CODE >227:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-4DC text10 CODE >234:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-4DC text10 CODE >235:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-4E1 text10 CODE >236:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-37F text9 CODE >83:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-37F text9 CODE >86:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-381 text9 CODE >87:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-389 text9 CODE >91:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-38C text9 CODE >94:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-38E text9 CODE >97:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-390 text9 CODE >100:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-392 text9 CODE >103:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-393 text9 CODE >106:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-39B text9 CODE >107:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-3A3 text9 CODE >108:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-3AA text9 CODE >110:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-3AC text9 CODE >113:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-3AD text9 CODE >114:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-3AE text9 CODE >115:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-3AF text9 CODE >118:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-3B1 text9 CODE >119:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/eusart.c
-4B1 text8 CODE >62:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/mcc.c
-4B1 text8 CODE >65:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/mcc.c
-4B4 text8 CODE >67:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/mcc.c
-4B5 text8 CODE >69:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/mcc.c
-4B7 text8 CODE >71:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/mcc.c
-4B7 text8 CODE >73:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/mcc.c
-47D text7 CODE >55:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/pin_manager.c
-47D text7 CODE >60:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/pin_manager.c
-47F text7 CODE >65:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/pin_manager.c
-482 text7 CODE >70:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/pin_manager.c
-485 text7 CODE >75:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/pin_manager.c
-487 text7 CODE >76:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/pin_manager.c
-489 text7 CODE >82:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/pin_manager.c
-48C text7 CODE >89:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/pin_manager.c
-4D6 text6 CODE >126:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-4D6 text6 CODE >127:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-4DB text6 CODE >128:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-46C text5 CODE >65:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-46C text5 CODE >70:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-471 text5 CODE >73:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-473 text5 CODE >76:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-474 text5 CODE >79:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-475 text5 CODE >82:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-476 text5 CODE >85:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-47C text5 CODE >86:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr0.c
-4BB text4 CODE >62:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr2.c
-4BB text4 CODE >67:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr2.c
-4BE text4 CODE >70:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr2.c
-4BF text4 CODE >73:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr2.c
-4C0 text4 CODE >76:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr2.c
-4C2 text4 CODE >77:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/tmr2.c
-4F4 text3 CODE >76:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/mcc.c
-4F4 text3 CODE >79:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/mcc.c
-4F7 text3 CODE >80:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/mcc.c
-457 text2 CODE >50:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/mcc.c
-457 text2 CODE >53:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/mcc.c
-45A text2 CODE >54:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/mcc.c
-45D text2 CODE >55:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/mcc.c
-460 text2 CODE >56:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/mcc.c
-463 text2 CODE >57:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/mcc.c
-466 text2 CODE >58:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/mcc.c
-469 text2 CODE >59:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/mcc.c
-46B text2 CODE >60:/Users/mathrax/MPLABXProjects/simpletone2021.X/mcc_generated_files/mcc.c
-408 text1 CODE >257:/Users/mathrax/MPLABXProjects/simpletone2021.X/main.c
-40A text1 CODE >259:/Users/mathrax/MPLABXProjects/simpletone2021.X/main.c
-415 text1 CODE >261:/Users/mathrax/MPLABXProjects/simpletone2021.X/main.c
-420 text1 CODE >263:/Users/mathrax/MPLABXProjects/simpletone2021.X/main.c
-421 text1 CODE >264:/Users/mathrax/MPLABXProjects/simpletone2021.X/main.c
-423 text1 CODE >266:/Users/mathrax/MPLABXProjects/simpletone2021.X/main.c
-425 text1 CODE >267:/Users/mathrax/MPLABXProjects/simpletone2021.X/main.c
-34C maintext CODE >272:/Users/mathrax/MPLABXProjects/simpletone2021.X/main.c
-34C maintext CODE >274:/Users/mathrax/MPLABXProjects/simpletone2021.X/main.c
-34F maintext CODE >280:/Users/mathrax/MPLABXProjects/simpletone2021.X/main.c
-350 maintext CODE >283:/Users/mathrax/MPLABXProjects/simpletone2021.X/main.c
-351 maintext CODE >292:/Users/mathrax/MPLABXProjects/simpletone2021.X/main.c
-354 maintext CODE >293:/Users/mathrax/MPLABXProjects/simpletone2021.X/main.c
-356 maintext CODE >296:/Users/mathrax/MPLABXProjects/simpletone2021.X/main.c
-357 maintext CODE >297:/Users/mathrax/MPLABXProjects/simpletone2021.X/main.c
-358 maintext CODE >298:/Users/mathrax/MPLABXProjects/simpletone2021.X/main.c
-35A maintext CODE >299:/Users/mathrax/MPLABXProjects/simpletone2021.X/main.c
-35B maintext CODE >300:/Users/mathrax/MPLABXProjects/simpletone2021.X/main.c
-35D maintext CODE >302:/Users/mathrax/MPLABXProjects/simpletone2021.X/main.c
-361 maintext CODE >306:/Users/mathrax/MPLABXProjects/simpletone2021.X/main.c
-367 maintext CODE >307:/Users/mathrax/MPLABXProjects/simpletone2021.X/main.c
-36E maintext CODE >309:/Users/mathrax/MPLABXProjects/simpletone2021.X/main.c
-376 maintext CODE >310:/Users/mathrax/MPLABXProjects/simpletone2021.X/main.c
-4D0 clrtext CODE >3215:/tmp/xcAXLbF0I.s
-4D0 clrtext CODE >3216:/tmp/xcAXLbF0I.s
-4D1 clrtext CODE >3217:/tmp/xcAXLbF0I.s
-4D1 clrtext CODE >3218:/tmp/xcAXLbF0I.s
-4D2 clrtext CODE >3219:/tmp/xcAXLbF0I.s
-4D3 clrtext CODE >3220:/tmp/xcAXLbF0I.s
-4D4 clrtext CODE >3221:/tmp/xcAXLbF0I.s
-4D5 clrtext CODE >3222:/tmp/xcAXLbF0I.s
-4CA inittext CODE >3189:/tmp/xcAXLbF0I.s
-4CA inittext CODE >3190:/tmp/xcAXLbF0I.s
-4CB inittext CODE >3191:/tmp/xcAXLbF0I.s
-4CB inittext CODE >3192:/tmp/xcAXLbF0I.s
-4CC inittext CODE >3193:/tmp/xcAXLbF0I.s
-4CD inittext CODE >3194:/tmp/xcAXLbF0I.s
-4CE inittext CODE >3195:/tmp/xcAXLbF0I.s
-4CF inittext CODE >3196:/tmp/xcAXLbF0I.s
+23D text19 CODE >130:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+23D text19 CODE >135:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+240 text19 CODE >138:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+243 text19 CODE >141:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+24E text19 CODE >145:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+252 text19 CODE >148:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+261 text19 CODE >151:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+265 text19 CODE >154:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+268 text19 CODE >156:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+26A text19 CODE >162:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+26E text19 CODE >168:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+272 text19 CODE >170:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+279 text19 CODE >174:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+27E text19 CODE >180:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+29F text19 CODE >183:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+2A2 text19 CODE >185:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+48D text18 CODE >109:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+48D text18 CODE >113:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+48E text18 CODE >115:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+491 text18 CODE >117:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+495 text18 CODE >119:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+49A text18 CODE >123:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+3E4 text16 CODE >140:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+3E4 text16 CODE >144:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+3E7 text16 CODE >148:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+3F0 text16 CODE >150:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+3FC text16 CODE >151:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+3FF text16 CODE >153:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+400 text16 CODE >155:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+402 text16 CODE >156:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+404 text16 CODE >157:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+405 text16 CODE >159:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+407 text16 CODE >160:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+4C3 text15 CODE >126:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+4C3 text15 CODE >128:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+4C9 text15 CODE >129:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+49B text14 CODE >64:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/epwm.c
+49B text14 CODE >69:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/epwm.c
+49E text14 CODE >72:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/epwm.c
+49F text14 CODE >75:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/epwm.c
+4A1 text14 CODE >78:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/epwm.c
+4A3 text14 CODE >81:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/epwm.c
+4A4 text14 CODE >84:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/epwm.c
+4A6 text14 CODE >86:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/epwm.c
+4EE text13 CODE >229:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+4EE text13 CODE >230:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+4F3 text13 CODE >231:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+4E8 text12 CODE >221:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+4E8 text12 CODE >222:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+4ED text12 CODE >223:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+4E2 text11 CODE >225:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+4E2 text11 CODE >226:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+4E7 text11 CODE >227:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+4DC text10 CODE >234:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+4DC text10 CODE >235:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+4E1 text10 CODE >236:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+37F text9 CODE >83:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+37F text9 CODE >86:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+381 text9 CODE >87:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+389 text9 CODE >91:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+38C text9 CODE >94:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+38E text9 CODE >97:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+390 text9 CODE >100:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+392 text9 CODE >103:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+393 text9 CODE >106:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+39B text9 CODE >107:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+3A3 text9 CODE >108:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+3AA text9 CODE >110:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+3AC text9 CODE >113:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+3AD text9 CODE >114:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+3AE text9 CODE >115:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+3AF text9 CODE >118:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+3B1 text9 CODE >119:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/eusart.c
+4B1 text8 CODE >62:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/mcc.c
+4B1 text8 CODE >65:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/mcc.c
+4B4 text8 CODE >67:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/mcc.c
+4B5 text8 CODE >69:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/mcc.c
+4B7 text8 CODE >71:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/mcc.c
+4B7 text8 CODE >73:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/mcc.c
+47D text7 CODE >55:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/pin_manager.c
+47D text7 CODE >60:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/pin_manager.c
+47F text7 CODE >65:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/pin_manager.c
+482 text7 CODE >70:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/pin_manager.c
+485 text7 CODE >75:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/pin_manager.c
+487 text7 CODE >76:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/pin_manager.c
+489 text7 CODE >82:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/pin_manager.c
+48C text7 CODE >89:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/pin_manager.c
+4D6 text6 CODE >126:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+4D6 text6 CODE >127:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+4DB text6 CODE >128:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+46C text5 CODE >65:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+46C text5 CODE >70:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+471 text5 CODE >73:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+473 text5 CODE >76:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+474 text5 CODE >79:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+475 text5 CODE >82:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+476 text5 CODE >85:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+47C text5 CODE >86:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr0.c
+4BB text4 CODE >62:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr2.c
+4BB text4 CODE >67:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr2.c
+4BE text4 CODE >70:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr2.c
+4BF text4 CODE >73:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr2.c
+4C0 text4 CODE >76:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr2.c
+4C2 text4 CODE >77:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/tmr2.c
+4F4 text3 CODE >76:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/mcc.c
+4F4 text3 CODE >79:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/mcc.c
+4F7 text3 CODE >80:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/mcc.c
+457 text2 CODE >50:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/mcc.c
+457 text2 CODE >53:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/mcc.c
+45A text2 CODE >54:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/mcc.c
+45D text2 CODE >55:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/mcc.c
+460 text2 CODE >56:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/mcc.c
+463 text2 CODE >57:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/mcc.c
+466 text2 CODE >58:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/mcc.c
+469 text2 CODE >59:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/mcc.c
+46B text2 CODE >60:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/mcc_generated_files/mcc.c
+408 text1 CODE >96:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/main.c
+40A text1 CODE >98:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/main.c
+415 text1 CODE >100:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/main.c
+420 text1 CODE >102:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/main.c
+421 text1 CODE >103:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/main.c
+423 text1 CODE >105:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/main.c
+425 text1 CODE >106:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/main.c
+34C maintext CODE >111:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/main.c
+34C maintext CODE >113:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/main.c
+34F maintext CODE >119:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/main.c
+350 maintext CODE >122:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/main.c
+351 maintext CODE >131:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/main.c
+354 maintext CODE >132:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/main.c
+356 maintext CODE >135:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/main.c
+357 maintext CODE >136:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/main.c
+358 maintext CODE >137:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/main.c
+35A maintext CODE >138:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/main.c
+35B maintext CODE >139:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/main.c
+35D maintext CODE >141:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/main.c
+361 maintext CODE >145:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/main.c
+367 maintext CODE >146:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/main.c
+36E maintext CODE >148:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/main.c
+376 maintext CODE >149:/Users/mathrax/Documents/GitHub/tori2020/simpletone2021.X/main.c
+4D0 clrtext CODE >3215:/tmp/xcIXFhaon.s
+4D0 clrtext CODE >3216:/tmp/xcIXFhaon.s
+4D1 clrtext CODE >3217:/tmp/xcIXFhaon.s
+4D1 clrtext CODE >3218:/tmp/xcIXFhaon.s
+4D2 clrtext CODE >3219:/tmp/xcIXFhaon.s
+4D3 clrtext CODE >3220:/tmp/xcIXFhaon.s
+4D4 clrtext CODE >3221:/tmp/xcIXFhaon.s
+4D5 clrtext CODE >3222:/tmp/xcIXFhaon.s
+4CA inittext CODE >3189:/tmp/xcIXFhaon.s
+4CA inittext CODE >3190:/tmp/xcIXFhaon.s
+4CB inittext CODE >3191:/tmp/xcIXFhaon.s
+4CB inittext CODE >3192:/tmp/xcIXFhaon.s
+4CC inittext CODE >3193:/tmp/xcIXFhaon.s
+4CD inittext CODE >3194:/tmp/xcIXFhaon.s
+4CE inittext CODE >3195:/tmp/xcIXFhaon.s
+4CF inittext CODE >3196:/tmp/xcIXFhaon.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -386,10 +386,10 @@ _PLLR 4D6 0 ABS 0 - dist/default/production/simpletone2021.X.production.o
 _TMR0 15 0 ABS 0 - dist/default/production/simpletone2021.X.production.o
 _TMR2 1A 0 ABS 0 - dist/default/production/simpletone2021.X.production.o
 _WPUA 20C 0 ABS 0 - dist/default/production/simpletone2021.X.production.o
-___sp 0 0 STACK 2 stack /tmp/xcAmsvRSG.o
+___sp 0 0 STACK 2 stack /tmp/xc6MNBMWC.o
 _main 698 0 CODE 0 maintext dist/default/production/simpletone2021.X.production.o
 btemp 7E 0 ABS 0 - dist/default/production/simpletone2021.X.production.o
-start 38 0 CODE 0 init /tmp/xcAmsvRSG.o
+start 38 0 CODE 0 init /tmp/xc6MNBMWC.o
 _TMR0_InterruptHandler 34 0 BANK0 1 bssBANK0 dist/default/production/simpletone2021.X.production.o
 __size_of_main 0 0 ABS 0 - dist/default/production/simpletone2021.X.production.o
 __HbssCOMMON 0 0 ABS 0 bssCOMMON -
@@ -404,12 +404,12 @@ __Hpowerup 0 0 CODE 0 powerup -
 _TMR2_Initialize 976 0 CODE 0 text4 dist/default/production/simpletone2021.X.production.o
 __size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/production/simpletone2021.X.production.o
 TMR0_SetInterruptHandler@InterruptHandler 52 0 BANK0 1 cstackBANK0 dist/default/production/simpletone2021.X.production.o
-intlevel0 0 0 ENTRY 0 functab /tmp/xcAmsvRSG.o
-intlevel1 0 0 ENTRY 0 functab /tmp/xcAmsvRSG.o
-intlevel2 0 0 ENTRY 0 functab /tmp/xcAmsvRSG.o
-intlevel3 0 0 ENTRY 0 functab /tmp/xcAmsvRSG.o
-intlevel4 0 0 ENTRY 0 functab /tmp/xcAmsvRSG.o
-intlevel5 0 0 ENTRY 0 functab /tmp/xcAmsvRSG.o
+intlevel0 0 0 ENTRY 0 functab /tmp/xc6MNBMWC.o
+intlevel1 0 0 ENTRY 0 functab /tmp/xc6MNBMWC.o
+intlevel2 0 0 ENTRY 0 functab /tmp/xc6MNBMWC.o
+intlevel3 0 0 ENTRY 0 functab /tmp/xc6MNBMWC.o
+intlevel4 0 0 ENTRY 0 functab /tmp/xc6MNBMWC.o
+intlevel5 0 0 ENTRY 0 functab /tmp/xc6MNBMWC.o
 __LbssCOMMON 0 0 ABS 0 bssCOMMON -
 __size_of_EPWM_Initialize 0 0 ABS 0 - dist/default/production/simpletone2021.X.production.o
 wtemp0 7E 0 ABS 0 - dist/default/production/simpletone2021.X.production.o
@@ -433,8 +433,8 @@ EUSART_SetRxInterruptHandler@interruptHandler 52 0 BANK0 1 cstackBANK0 dist/defa
 __Lmaintext 0 0 ABS 0 maintext -
 _waveData 3C 0 BANK0 1 bssBANK0 dist/default/production/simpletone2021.X.production.o
 _OPTION_REG 95 0 ABS 0 - dist/default/production/simpletone2021.X.production.o
-___stackhi 20EF 0 ABS 0 - /tmp/xcAmsvRSG.o
-___stacklo 2040 0 ABS 0 - /tmp/xcAmsvRSG.o
+___stackhi 20EF 0 ABS 0 - /tmp/xc6MNBMWC.o
+___stacklo 2040 0 ABS 0 - /tmp/xc6MNBMWC.o
 _EUSART_Initialize 6FE 0 CODE 0 text9 dist/default/production/simpletone2021.X.production.o
 _EUSART_is_rx_ready 986 0 CODE 0 text15 dist/default/production/simpletone2021.X.production.o
 __size_of_TMR2_Initialize 0 0 ABS 0 - dist/default/production/simpletone2021.X.production.o
@@ -456,7 +456,7 @@ __pcstackBANK0 4B 0 BANK0 1 cstackBANK0 dist/default/production/simpletone2021.X
 __end_of_EUSART_DefaultFramingErrorHandler A00 0 CODE 0 text23 dist/default/production/simpletone2021.X.production.o
 __end_of_EUSART_DefaultOverrunErrorHandler 9F8 0 CODE 0 text22 dist/default/production/simpletone2021.X.production.o
 _WDTCON 97 0 ABS 0 - dist/default/production/simpletone2021.X.production.o
-___int_sp 0 0 STACK 2 stack /tmp/xcAmsvRSG.o
+___int_sp 0 0 STACK 2 stack /tmp/xc6MNBMWC.o
 __end_of_EUSART_Read 810 0 CODE 0 text16 dist/default/production/simpletone2021.X.production.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
@@ -610,7 +610,7 @@ __end_of_EUSART_Receive_ISR 7C8 0 CODE 0 text21 dist/default/production/simpleto
 _ECCP1AS 295 0 ABS 0 - dist/default/production/simpletone2021.X.production.o
 _SYSTEM_Initialize 8AE 0 CODE 0 text2 dist/default/production/simpletone2021.X.production.o
 __Lintentry 8 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec /tmp/xcAmsvRSG.o
+reset_vec 0 0 CODE 0 reset_vec /tmp/xc6MNBMWC.o
 EUSART_Read@readValue 53 0 BANK0 1 cstackBANK0 dist/default/production/simpletone2021.X.production.o
 _onkai_d 5F0 0 STRCODE 0 stringtext4 dist/default/production/simpletone2021.X.production.o
 _onkai_f 546 0 STRCODE 0 stringtext3 dist/default/production/simpletone2021.X.production.o
